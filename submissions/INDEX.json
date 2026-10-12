@@ -11,12 +11,28 @@
   ],
   "Amaan Pathan": [
     {
+      "type": "Linkedin",
+      "points": 40,
+      "title": "Vicharak Campus Fellowship Kickoff",
+      "link": "https://www.linkedin.com/posts/amaan-pathan-127bb0263_vicharak-embeddedsystems-fpga-share-7514711558405521408-DsDl/",
+      "date": "2026-10-10",
+      "file": "Amaan_Pathan_Linkedin_2026-10-10.json"
+    },
+    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "PurchaseProof_pack of 2 ShrikeFi_Amaan Pathan",
       "link": "https://drive.google.com/file/d/1UEn-QpIAYLxYL8V42cCf-1WJR7T8QCbP/view?usp=sharing",
       "date": "2026-10-08",
       "file": "Amaan_Pathan_PurchaseProof_2026-10-08.json"
+    },
+    {
+      "type": "X",
+      "points": 40,
+      "title": "Vicharak Campus Fellowship Kickoff",
+      "link": "https://x.com/AstroAmaan/status/2108955198274379963",
+      "date": "2026-10-10",
+      "file": "Amaan_Pathan_X_2026-10-10.json"
     }
   ],
   "ANNESTIO PIETY CASTANHA": [
@@ -67,7 +83,25 @@
       "file": "Harshit_Kumar_Sharma_X_2026-10-08.json"
     }
   ],
+  "MAJJI BHANU PRAKASH": [
+    {
+      "type": "PurchaseProof",
+      "points": 0,
+      "title": "PurchaseProof",
+      "link": "https://drive.google.com/file/d/1CDshSAe84N0fkmZvA8rQyvRSKdjuD4up/view?usp=drivesdk",
+      "date": "2026-10-07",
+      "file": "MAJJI_BHANU_PRAKASH_Purchaseproof_2026-10-09.json"
+    }
+  ],
   "Nathan Mathews": [
+    {
+      "type": "Blog",
+      "points": 40,
+      "title": "PRNGs on a Shrike-Lite Devboard",
+      "link": "https://docs.google.com/document/d/1MP8t0d4zSxcjxD-0ID6zmkhGox1zfDe8YlOHhGU3rw4/edit?usp=sharing",
+      "date": "2026-10-09",
+      "file": "Nathan_Mathews_Blog_2026-10-09.json"
+    },
     {
       "type": "PurchaseProof",
       "points": 0,
@@ -75,6 +109,16 @@
       "link": "https://drive.google.com/file/d/146DsJhh7G3UF64aGUQF1zYtZObXwhnUl/view",
       "date": "2026-10-03",
       "file": "Nathan_Mathews_PurchaseProof_2026-10-03.json"
+    }
+  ],
+  "Pradyumna Dalmia": [
+    {
+      "type": "PurchaseProof",
+      "points": 0,
+      "title": "Purchase proof - Shrike Lite",
+      "link": "https://drive.google.com/file/d/1sDcuwwf4JRTPqTiSljabapSxWne0qyIQ/view?usp=sharing",
+      "date": "2026-01-01",
+      "file": "Pradyumna_Dalmia_PurchaseProof_2026-01-01.json"
     }
   ],
   "Pranav Dhole": [
@@ -153,6 +197,14 @@
       "link": "https://raw.githubusercontent.com/orignalbox/vicharak-fellowship-tracker/proof-assets/Vaibhav_Santosh_Tiwari_proof.png",
       "date": "2026-10-03",
       "file": "Vaibhav_Santosh_Tiwari_PurchaseProof_2026-10-03.json"
+    },
+    {
+      "type": "X",
+      "points": 40,
+      "title": "Vicharak Shrike Lite Unboxing & Packaging First Impressions",
+      "link": "https://x.com/imnot_linear/status/2109241369109909789",
+      "date": "2026-10-11",
+      "file": "Vaibhav_Santosh_Tiwari_X_2026-10-11.json"
     }
   ],
   "Veer Kishan Whabi": [
@@ -166,6 +218,14 @@
     }
   ],
   "yatharth vishwa": [
+    {
+      "type": "Linkedin",
+      "points": 40,
+      "title": "Joining Vicharak fellowship program",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7513978284406337537/",
+      "date": "2026-10-08",
+      "file": "yatharth_vishwa_Linkedin_2026-10-08.json"
+    },
     {
       "type": "PurchaseProof",
       "points": 0,
