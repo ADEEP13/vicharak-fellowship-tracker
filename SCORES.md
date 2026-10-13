@@ -1,4 +1,4 @@
-# Fellowship Scores - 2026-10-12 04:05 UTC
+# Fellowship Scores - 2026-10-13 19:35 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
@@ -65,4 +65,4 @@ Threshold: 250 (ELIGIBLE >= 250)
 | 59 | Yash Sharda | @yashsharda2 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 60 | Yashvi Doshi | @yashvidoshi | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 
-_Source: allocations/summary.csv - 60 fellows - Points: Blog=40, Linkedin=40, X=40, Project=70, Workshop=100, Documentation=30, Video=90, Community=20, Bug=25, Feature=60, Referral=30, Demo=50, PurchaseProof=0
+_Source: allocations/summary.csv - 60 fellows - Points: Blog=40, Linkedin=40, X=40, Project=70, Workshop=100, Documentation contribution=30, Video=90, Fellowship Referral=20, Bug=25, Referral=30, PurchaseProof=0
