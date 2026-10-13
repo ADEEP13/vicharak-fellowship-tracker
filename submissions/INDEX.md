@@ -1,6 +1,14 @@
-# Submissions by Fellow - 2026-10-08 13:18 UTC
+# Submissions by Fellow - 2026-10-12 04:05 UTC
 
-_Total: 14 accepted submissions across 13/60 fellows_
+_Total: 25 accepted submissions across 18/60 fellows_
+
+## Adeep AG - 1 submission(s), 0 pts
+- [PurchaseProof] Shrike Lite Order #4726 (2026-10-09) - https://drive.google.com/drive/u/0/folders/1h7LZbNftaQJHPZZ7_Fp8lw2rfFcRpzPM - 0 pts - `Adeep_AG_PurchaseProof_2026-10-09.json`
+
+## Amaan Pathan - 3 submission(s), 80 pts
+- [Linkedin] Vicharak Campus Fellowship Kickoff (2026-10-10) - https://www.linkedin.com/posts/amaan-pathan-127bb0263_vicharak-embeddedsystems-fpga-share-7514711558405521408-DsDl/ - 40 pts - `Amaan_Pathan_Linkedin_2026-10-10.json`
+- [PurchaseProof] PurchaseProof_pack of 2 ShrikeFi_Amaan Pathan (2026-10-08) - https://drive.google.com/file/d/1UEn-QpIAYLxYL8V42cCf-1WJR7T8QCbP/view?usp=sharing - 0 pts - `Amaan_Pathan_PurchaseProof_2026-10-08.json`
+- [X] Vicharak Campus Fellowship Kickoff (2026-10-10) - https://x.com/AstroAmaan/status/2108955198274379963 - 40 pts - `Amaan_Pathan_X_2026-10-10.json`
 
 ## ANNESTIO PIETY CASTANHA - 1 submission(s), 0 pts
 - [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-03) - https://raw.githubusercontent.com/apcetc/Vicharak_Campus_Fellowship_APC-/main/submissions/purchase_proof/INVOICE_APC.png - 0 pts - `ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json`
@@ -11,11 +19,22 @@ _Total: 14 accepted submissions across 13/60 fellows_
 ## Hardik Kumar Sinha - 1 submission(s), 0 pts
 - [PurchaseProof] ShrikeFi PurchaseProof, Order #6505 (2026-10-07) - https://drive.google.com/file/d/17PDVtNNHAzT4F4VuFTIq53OeErCilu2b/view?usp=sharing - 0 pts - `Hardik_Kumar_Sinha_PurchaseProof_2026-10-07.json`
 
-## Harshit Kumar Sharma - 1 submission(s), 0 pts
+## Harshit Kumar Sharma - 2 submission(s), 40 pts
 - [PurchaseProof] Purchase Proof Orders #4989 and #5785 (2026-10-04) - https://docs.google.com/document/d/1xIFamwjXaCcTN_OIHSBaBIrnRZicWH-KDGStICfz7Ws/edit?usp=sharing - 0 pts - `Harshit_Kumar_Sharma_PurchaseProof_2026-10-04.json`
+- [X] Vicharak Fellowship Kickoff Post (2026-10-08) - https://docs.google.com/document/d/1wtRL2N-kqDj2T9i16jaijWDE3giKfRZs6k4EvHBKFEA/edit?usp=sharing - 40 pts - `Harshit_Kumar_Sharma_X_2026-10-08.json`
 
-## Nathan Mathews - 1 submission(s), 0 pts
+## MAJJI BHANU PRAKASH - 1 submission(s), 0 pts
+- [PurchaseProof] PurchaseProof (2026-10-07) - https://drive.google.com/file/d/1CDshSAe84N0fkmZvA8rQyvRSKdjuD4up/view?usp=drivesdk - 0 pts - `MAJJI_BHANU_PRAKASH_Purchaseproof_2026-10-09.json`
+
+## Nathan Mathews - 2 submission(s), 40 pts
+- [Blog] PRNGs on a Shrike-Lite Devboard (2026-10-09) - https://docs.google.com/document/d/1MP8t0d4zSxcjxD-0ID6zmkhGox1zfDe8YlOHhGU3rw4/edit?usp=sharing - 40 pts - `Nathan_Mathews_Blog_2026-10-09.json`
 - [PurchaseProof] Purchase proof - Shrike Lite, Order #3967 (2026-10-03) - https://drive.google.com/file/d/146DsJhh7G3UF64aGUQF1zYtZObXwhnUl/view - 0 pts - `Nathan_Mathews_PurchaseProof_2026-10-03.json`
+
+## Pradyumna Dalmia - 1 submission(s), 0 pts
+- [PurchaseProof] Purchase proof - Shrike Lite (2026-01-01) - https://drive.google.com/file/d/1sDcuwwf4JRTPqTiSljabapSxWne0qyIQ/view?usp=sharing - 0 pts - `Pradyumna_Dalmia_PurchaseProof_2026-01-01.json`
+
+## Pranav Dhole - 1 submission(s), 0 pts
+- [PurchaseProof] PurchaseProof (2026-10-7) - https://ibb.co/4vSJLtb - 0 pts - `Pranav_Dhole_PurchaseProf_2026-10-7.json`
 
 ## Revand Pradeep - 1 submission(s), 0 pts
 - [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-03) - https://drive.google.com/drive/folders/18JQ_lGAOGAOYQ0ecBd2tAzkTKb5Qq7w3 - 0 pts - `RevandPradeep_PurchaseProof_2026-10-03.json`
@@ -33,11 +52,13 @@ _Total: 14 accepted submissions across 13/60 fellows_
 ## Sumit Maheshwari - 1 submission(s), 0 pts
 - [PurchaseProof] Just got a brand new development board from Vicharak (2026-10-06) - https://lnkd.in/p/gFtzT9YD - 0 pts - `Sumit_Maheshwari_PurchaseProof_2026-10-06.json`
 
-## Vaibhav Santosh Tiwari - 1 submission(s), 0 pts
+## Vaibhav Santosh Tiwari - 2 submission(s), 40 pts
 - [PurchaseProof] Purchase proof - Shrike Lite, Order #6489 (2026-10-03) - https://raw.githubusercontent.com/orignalbox/vicharak-fellowship-tracker/proof-assets/Vaibhav_Santosh_Tiwari_proof.png - 0 pts - `Vaibhav_Santosh_Tiwari_PurchaseProof_2026-10-03.json`
+- [X] Vicharak Shrike Lite Unboxing & Packaging First Impressions (2026-10-11) - https://x.com/imnot_linear/status/2109241369109909789 - 40 pts - `Vaibhav_Santosh_Tiwari_X_2026-10-11.json`
 
 ## Veer Kishan Whabi - 1 submission(s), 0 pts
 - [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-07) - https://drive.google.com/file/d/15P0vRGSMZeC6cAN4dE6t7xOi2WeBy2j3/view?usp=sharing - 0 pts - `Veer_Kishan_Whabi_PurchaseProof_2026-10-07.json`
 
-## yatharth vishwa - 1 submission(s), 0 pts
+## yatharth vishwa - 2 submission(s), 40 pts
+- [Linkedin] Joining Vicharak fellowship program (2026-10-08) - https://www.linkedin.com/feed/update/urn:li:activity:7513978284406337537/ - 40 pts - `yatharth_vishwa_Linkedin_2026-10-08.json`
 - [PurchaseProof] PurchaseProof (2026-10-03) - https://drive.google.com/file/d/16SCtfxldNgffWbm9B9NtIkQyjrcxq1QA/view?usp=sharing - 0 pts - `yatharth_vishwa_PurchaseProof_2026-10-03.json`
