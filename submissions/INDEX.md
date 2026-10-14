@@ -1,9 +1,12 @@
-# Submissions by Fellow - 2026-10-13 14:06 UTC
+# Submissions by Fellow - 2026-10-14 12:50 UTC
 
-_Total: 25 accepted submissions across 18/60 fellows_
+_Total: 26 accepted submissions across 19/60 fellows_
 
 ## Adeep AG - 1 submission(s), 0 pts
 - [PurchaseProof] Shrike Lite Order #4726 (2026-10-09) - https://drive.google.com/drive/u/0/folders/1h7LZbNftaQJHPZZ7_Fp8lw2rfFcRpzPM - 0 pts - `Adeep_AG_PurchaseProof_2026-10-09.json`
+
+## Aditya Nukala - 1 submission(s), 0 pts
+- [PurchaseProof] Vicharak Fellowship kit Purchase Proof (2026-10-14) - https://drive.google.com/drive/folders/1wtj7Pgt6J6he5JOblPkfnwpEVLV-jZXD?usp=sharing - 0 pts - `Aditya_Nukala_PurchaseProof_2026-10-14.json`
 
 ## Amaan Pathan - 3 submission(s), 80 pts
 - [Linkedin] Vicharak Campus Fellowship Kickoff (2026-10-10) - https://www.linkedin.com/posts/amaan-pathan-127bb0263_vicharak-embeddedsystems-fpga-share-7514711558405521408-DsDl/ - 40 pts - `Amaan_Pathan_Linkedin_2026-10-10.json`

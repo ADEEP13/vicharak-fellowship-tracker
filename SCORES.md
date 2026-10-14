@@ -1,4 +1,4 @@
-# Fellowship Scores - 2026-10-13 14:06 UTC
+# Fellowship Scores - 2026-10-14 12:50 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
@@ -13,7 +13,7 @@ Threshold: 250 (ELIGIBLE >= 250)
 | 7 | Aaditya Goswami | @aadii02 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 8 | Abhishek Jain | @abhishek261007 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 9 | Adeep AG | @adeep13 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 10 | Aditya Nukala | @adikp98 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 10 | Aditya Nukala | @adikp98 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 11 | Aditya Reddy | @aditya-1020 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 12 | Amrutha M | @amrutham-24 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 13 | Anandu Rajan | @anandurajan1209 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
