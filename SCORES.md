@@ -1,4 +1,4 @@
-# Fellowship Scores - 2026-10-14 12:50 UTC
+# Fellowship Scores - 2026-10-15 09:09 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
@@ -17,7 +17,7 @@ Threshold: 250 (ELIGIBLE >= 250)
 | 11 | Aditya Reddy | @aditya-1020 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 12 | Amrutha M | @amrutham-24 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 13 | Anandu Rajan | @anandurajan1209 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 14 | Ankit raj | @ankitra-j | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 14 | Ankit raj | @ankitra-j | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 15 | ANNESTIO PIETY CASTANHA | @apcetc | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 16 | Anusheel Singh | @anusheelsingh12 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 17 | Arafat Babar | @arafatbabar | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
