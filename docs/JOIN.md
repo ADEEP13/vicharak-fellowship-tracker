@@ -9,7 +9,7 @@ Public to view. To submit, your **first PR must be your purchase proof**.
 
 ## After proof is accepted
 Only after your PurchaseProof PR is merged will regular submissions be accepted:
-- Blog / Linkedin / X / Project / Workshop / Documentation contribution / Video / Fellowship Referral / Bug / Referral
+- Blog / Linkedin / X / Project / Workshop / Documentation contribution / Video / Fellowship Referral / Bug
 - One submission = one JSON file = one PR, e.g. `submissions/Arjun_A_Blog_2026-09-28.json` with PR title `[Blog] Arjun A — https://...`
 
 > If your first PR is not the purchase proof, it will be closed / not accepted. Submit the PurchaseProof PR first, then resubmit the others.
