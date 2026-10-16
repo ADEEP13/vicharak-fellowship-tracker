@@ -9,7 +9,7 @@ You need 250 points to become ELIGIBLE.
 Points list (from `points.json`):
 Blog = 40, Linkedin = 40, X = 40, Project (GitHub) = 70, Workshop = 100, Documentation contribution = 30, Video = 90, Fellowship Referral = 20, Bug = 25. PurchaseProof = 0 points, but it unlocks you.
 
-Student list comes from `fellows.csv` (59 fellows).
+Student list comes from `fellows.csv` (69 fellows).
 
 ## Step 0 - Join first: purchase proof must be your first PR
 
@@ -90,7 +90,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-16 10:02 UTC - Threshold 250 - 6/69 with points_
+_Updated 2026-10-16 15:59 UTC - Threshold 250 - 6/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|

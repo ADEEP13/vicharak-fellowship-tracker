@@ -8,7 +8,7 @@ Welcome aboard! You're registered in the fellowship tracker. Here's how to get s
 
 **1. Join the groups**
 - WhatsApp: https://chat.whatsapp.com/JcvTgHxRw4GAltU0QsdNfg?mode=gi_t
-- Discord: https://discord.com/channels/896263475783925770/1552649453146603540
+- Discord: https://discord.gg/CafTF5Wwx
 
 **2. Your first task (mandatory): kit purchase proof**
 Nothing else counts until this is accepted. Steps (full guide: `docs/JOIN.md` in the repo):
