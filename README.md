@@ -90,7 +90,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-15 09:09 UTC - Threshold 250 - 6/60 with points_
+_Updated 2026-10-16 15:15 UTC - Threshold 250 - 6/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
@@ -105,17 +105,17 @@ _Updated 2026-10-15 09:09 UTC - Threshold 250 - 6/60 with points_
 | 9 | Adeep AG | @adeep13 | YES | **0** | BELOW |
 | 10 | Aditya Nukala | @adikp98 | YES | **0** | BELOW |
 | 11 | Aditya Reddy | @aditya-1020 | NO | **0** | BELOW |
-| 12 | Amrutha M | @amrutham-24 | NO | **0** | BELOW |
-| 13 | Anandu Rajan | @anandurajan1209 | NO | **0** | BELOW |
-| 14 | Ankit raj | @ankitra-j | YES | **0** | BELOW |
-| 15 | ANNESTIO PIETY CASTANHA | @apcetc | YES | **0** | BELOW |
-| 16 | Anusheel Singh | @anusheelsingh12 | NO | **0** | BELOW |
-| 17 | Arafat Babar | @arafatbabar | NO | **0** | BELOW |
-| 18 | Arijit Ghosh | @ari-jit | NO | **0** | BELOW |
-| 19 | Arjun A | @arjnchrn | NO | **0** | BELOW |
-| 20 | Arush Dwivedi | @arushdwivedi11 | NO | **0** | BELOW |
+| 12 | Aman Sharma | @captain1508 | NO | **0** | BELOW |
+| 13 | Amrutha M | @amrutham-24 | NO | **0** | BELOW |
+| 14 | Anandu Rajan | @anandurajan1209 | NO | **0** | BELOW |
+| 15 | Ankit raj | @ankitra-j | YES | **0** | BELOW |
+| 16 | ANNESTIO PIETY CASTANHA | @apcetc | YES | **0** | BELOW |
+| 17 | Anusheel Singh | @anusheelsingh12 | NO | **0** | BELOW |
+| 18 | Arafat Babar | @arafatbabar | NO | **0** | BELOW |
+| 19 | Arijit Ghosh | @ari-jit | NO | **0** | BELOW |
+| 20 | Arjun A | @arjnchrn | NO | **0** | BELOW |
 
-_Showing top 20 of 60 - full list in [SCORES.md](SCORES.md)_
+_Showing top 20 of 69 - full list in [SCORES.md](SCORES.md)_
 <!-- SCORES_END -->
 
 Full table: [`SCORES.md`](SCORES.md) · Machine-readable: [`allocations/summary.csv`](allocations/summary.csv) · PDF: [`fellowship_scores.pdf`](fellowship_scores.pdf)
