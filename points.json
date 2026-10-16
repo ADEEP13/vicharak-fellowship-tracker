@@ -8,7 +8,6 @@
   "Video": 90,
   "Fellowship Referral": 20,
   "Bug": 25,
-  "Referral": 30,
   "PurchaseProof": 0,
   "_aliases": {
     "blog": "Blog",
@@ -35,9 +34,6 @@
     "fellowship referal": "Fellowship Referral",
     "bug": "Bug",
     "bug report": "Bug",
-    "referral": "Referral",
-    "customer referral": "Referral",
-    "customer": "Referral",
     "purchaseproof": "PurchaseProof",
     "purchase proof": "PurchaseProof",
     "kit proof": "PurchaseProof",
