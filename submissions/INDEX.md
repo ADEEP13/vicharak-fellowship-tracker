@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-16 10:30 UTC
+# Submissions by Fellow - 2026-10-17 06:59 UTC
 
-_Total: 27 accepted submissions across 20/69 fellows_
+_Total: 28 accepted submissions across 20/69 fellows_
 
 ## Adeep AG - 1 submission(s), 0 pts
 - [PurchaseProof] Shrike Lite Order #4726 (2026-10-09) - https://drive.google.com/drive/u/0/folders/1h7LZbNftaQJHPZZ7_Fp8lw2rfFcRpzPM - 0 pts - `Adeep_AG_PurchaseProof_2026-10-09.json`
@@ -62,8 +62,9 @@ _Total: 27 accepted submissions across 20/69 fellows_
 - [PurchaseProof] Purchase proof - Shrike Lite, Order #6489 (2026-10-03) - https://raw.githubusercontent.com/orignalbox/vicharak-fellowship-tracker/proof-assets/Vaibhav_Santosh_Tiwari_proof.png - 0 pts - `Vaibhav_Santosh_Tiwari_PurchaseProof_2026-10-03.json`
 - [X] Vicharak Shrike Lite Unboxing & Packaging First Impressions (2026-10-11) - https://x.com/imnot_linear/status/2109241369109909789 - 40 pts - `Vaibhav_Santosh_Tiwari_X_2026-10-11.json`
 
-## Veer Kishan Whabi - 1 submission(s), 0 pts
+## Veer Kishan Whabi - 2 submission(s), 40 pts
 - [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-07) - https://drive.google.com/file/d/15P0vRGSMZeC6cAN4dE6t7xOi2WeBy2j3/view?usp=sharing - 0 pts - `Veer_Kishan_Whabi_PurchaseProof_2026-10-07.json`
+- [X] Vicharak Fellowship Post-1 (2026-10-16) - https://docs.google.com/document/d/1r94aN2mwUiMcJ8wOCVw6MSr8-jLUZ3vR-yG5TSVFDsM/edit?tab=t.0 - 40 pts - `Veer_Kishan_Whabi_X_2026-10-16.json`
 
 ## yatharth vishwa - 2 submission(s), 40 pts
 - [Linkedin] Joining Vicharak fellowship program (2026-10-08) - https://www.linkedin.com/feed/update/urn:li:activity:7513978284406337537/ - 40 pts - `yatharth_vishwa_Linkedin_2026-10-08.json`
