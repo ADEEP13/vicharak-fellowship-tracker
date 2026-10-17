@@ -1,19 +1,19 @@
-# Fellowship Scores - 2026-10-17 06:59 UTC
+# Fellowship Scores - 2026-10-17 14:54 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
 | Rank | Fellow | GitHub | Kit | Project | LinkedIn | Blog | X | Workshop | Other | Total | Status |
 |---:|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Amaan Pathan | @amaan9737 | YES | 0 | 1 | 0 | 1 | 0 | 0 | **80** | BELOW |
-| 2 | Saksham Sud | @geneticscrol | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
-| 3 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
-| 4 | Nathan Mathews | @deagle2 | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
-| 5 | Vaibhav Santosh Tiwari | @orignalbox | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
-| 6 | Veer Kishan Whabi | @veeru24ec006 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
-| 7 | yatharth vishwa | @yatharthvishwa | YES | 0 | 1 | 0 | 0 | 0 | 0 | **40** | BELOW |
-| 8 | Aaditya Goswami | @aadii02 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 9 | Abhishek Jain | @abhishek261007 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 10 | Adeep AG | @adeep13 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 2 | Adeep AG | @adeep13 | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
+| 3 | Saksham Sud | @geneticscrol | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
+| 4 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
+| 5 | Nathan Mathews | @deagle2 | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
+| 6 | Vaibhav Santosh Tiwari | @orignalbox | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
+| 7 | Veer Kishan Whabi | @veeru24ec006 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
+| 8 | yatharth vishwa | @yatharthvishwa | YES | 0 | 1 | 0 | 0 | 0 | 0 | **40** | BELOW |
+| 9 | Aaditya Goswami | @aadii02 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 10 | Abhishek Jain | @abhishek261007 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 11 | Aditya Nukala | @adikp98 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 12 | Aditya Reddy | @aditya-1020 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 13 | Aman Sharma | @captain1508 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |

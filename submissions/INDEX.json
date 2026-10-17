@@ -1,6 +1,14 @@
 {
   "Adeep AG": [
     {
+      "type": "Project",
+      "points": 70,
+      "title": "Geto Web IDE : For Shrike Series board(RP2040 & RP2350)",
+      "link": "https://github.com/ADEEP13/IDE",
+      "date": "2026-10-17",
+      "file": "Adeep_AG_Project_2026-10-17.json"
+    },
+    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "Shrike Lite Order #4726",
