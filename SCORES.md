@@ -1,4 +1,4 @@
-# Fellowship Scores - 2026-10-20 09:24 UTC
+# Fellowship Scores - 2026-10-20 09:32 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
@@ -6,13 +6,13 @@ Threshold: 250 (ELIGIBLE >= 250)
 |---:|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | yatharth vishwa | @yatharthvishwa | YES | 1 | 2 | 0 | 0 | 0 | 0 | **150** | BELOW |
 | 2 | Saksham Sud | @geneticscrol | YES | 2 | 0 | 0 | 0 | 0 | 0 | **140** | BELOW |
-| 3 | Nathan Mathews | @deagle2 | YES | 1 | 0 | 1 | 0 | 0 | 0 | **110** | BELOW |
-| 4 | Amaan Pathan | @amaan9737 | YES | 0 | 1 | 0 | 1 | 0 | 0 | **80** | BELOW |
-| 5 | Ankit raj | @ankitra-j | YES | 0 | 0 | 1 | 1 | 0 | 0 | **80** | BELOW |
-| 6 | Adeep AG | @adeep13 | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
-| 7 | ANNESTIO PIETY CASTANHA | @apcetc | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
-| 8 | Revand Pradeep | @revx5 | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
-| 9 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
+| 3 | Amaan Pathan | @amaan9737 | YES | 0 | 1 | 0 | 1 | 0 | 0 | **80** | BELOW |
+| 4 | Ankit raj | @ankitra-j | YES | 0 | 0 | 1 | 1 | 0 | 0 | **80** | BELOW |
+| 5 | Adeep AG | @adeep13 | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
+| 6 | ANNESTIO PIETY CASTANHA | @apcetc | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
+| 7 | Revand Pradeep | @revx5 | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
+| 8 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
+| 9 | Nathan Mathews | @deagle2 | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
 | 10 | Vaibhav Santosh Tiwari | @orignalbox | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
 | 11 | Veer Kishan Whabi | @veeru24ec006 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
 | 12 | Aaditya Goswami | @aadii02 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
