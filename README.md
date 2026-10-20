@@ -7,7 +7,7 @@ You do work outside (blog, video, LinkedIn post, project), you send us the link 
 You need 250 points to become ELIGIBLE.
 
 Points list (from `points.json`):
-Blog = 40, Linkedin = 40, X = 40, Project (GitHub) = 70, Workshop = 100, Documentation contribution = 30, Video = 90, YT Video = 50, Reel = 50, Fellowship Referral = 20, Bug = 25. PurchaseProof = 0 points, but it unlocks you.
+Blog = 40, Linkedin = 40, X = 40, Project (GitHub) = 70, Workshop = 100, Documentation contribution = 30, YT longform Video = 90, YT shorts = 50, Insta reel = 50, Fellowship Referral = 20, Bug = 25. PurchaseProof = 0 points, but it unlocks you.
 
 Student list comes from `fellows.csv` (69 fellows).
 
@@ -28,10 +28,10 @@ Full steps with pictures in words: [`docs/JOIN.md`](docs/JOIN.md).
 
 Only after your PurchaseProof is accepted, do this for Blog, Linkedin, X, Project, etc.
 
-1. Make your draft viewable first - do NOT post on social media yet. Put your draft in a Google Doc (or similar) with `Anyone with link can view`, and copy that `https://...` link. This is what you send for review. Only after I approve the PR, post it on the dedicated platform - Medium for Blog, x.com for X, LinkedIn for Linkedin, GitHub for Project, YouTube for Video / YT Video / Reel.
+1. Make your draft viewable first - do NOT post on social media yet. Put your draft in a Google Doc (or similar) with `Anyone with link can view`, and copy that `https://...` link. This is what you send for review. Only after I approve the PR, post it on the dedicated platform - Medium for Blog, x.com for X, LinkedIn for Linkedin, GitHub for Project, YouTube for YT longform Video / YT shorts, Instagram for Insta reel.
 2. Fill the form: copy `submissions/TEMPLATE.json` to `submissions/<Your-Name>_<Type>_<YYYY-MM-DD>.json`. Example: `submissions/Arjun_A_Blog_2026-09-28.json`.
    - `fellow`: your exact name from `fellows.csv`, example `Arjun A`
-   - `type`: one of - Blog, Linkedin, X, Project, Workshop, Documentation contribution, Video, YT Video, Reel, Fellowship Referral, Bug
+   - `type`: one of - Blog, Linkedin, X, Project, Workshop, Documentation contribution, YT longform Video, YT shorts, Insta reel, Fellowship Referral, Bug
    - `title`: short name of your work
    - `link`: paste your Google Doc draft link here for review (must start with `https://` and open without login). After approval you will post the final link on the dedicated platform.
    - `date`: today in `YYYY-MM-DD`
@@ -93,7 +93,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-20 09:18 UTC - Threshold 250 - 11/69 with points_
+_Updated 2026-10-20 14:53 UTC - Threshold 250 - 11/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
