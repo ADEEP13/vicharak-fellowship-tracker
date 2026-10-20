@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-20 06:23 UTC
+# Submissions by Fellow - 2026-10-20 06:25 UTC
 
-_Total: 35 accepted submissions across 20/69 fellows_
+_Total: 36 accepted submissions across 20/69 fellows_
 
 ## Adeep AG - 2 submission(s), 70 pts
 - [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
@@ -46,7 +46,8 @@ _Total: 35 accepted submissions across 20/69 fellows_
 ## Pranav Dhole - 1 submission(s), 0 pts
 - [PurchaseProof] PurchaseProof (2026-10-7) - https://ibb.co/4vSJLtb - 0 pts - `Pranav_Dhole_PurchaseProf_2026-10-7.json`
 
-## Revand Pradeep - 1 submission(s), 0 pts
+## Revand Pradeep - 2 submission(s), 70 pts
+- [Project] Shrike-Sentinel (2026-10-15) - https://docs.google.com/document/d/1DzsEX9RhsuA5Obxm0qkuIky-P2YCXNoWIiYl_c4sDtA/edit?usp=sharing - 70 pts - `Revand_Pradeep_Project_2026-10-15.json`
 - [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-03) - https://drive.google.com/drive/folders/18JQ_lGAOGAOYQ0ecBd2tAzkTKb5Qq7w3 - 0 pts - `RevandPradeep_PurchaseProof_2026-10-03.json`
 
 ## Rudra Das - 1 submission(s), 0 pts

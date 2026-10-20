@@ -90,7 +90,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-20 06:23 UTC - Threshold 250 - 10/69 with points_
+_Updated 2026-10-20 06:25 UTC - Threshold 250 - 11/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
@@ -101,19 +101,19 @@ _Updated 2026-10-20 06:23 UTC - Threshold 250 - 10/69 with points_
 | 5 | Ankit raj | @ankitra-j | YES | **80** | BELOW |
 | 6 | Adeep AG | @adeep13 | YES | **70** | BELOW |
 | 7 | ANNESTIO PIETY CASTANHA | @apcetc | NO | **70** | BELOW |
-| 8 | Harshit Kumar Sharma | @harshit2387 | YES | **40** | BELOW |
-| 9 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
-| 10 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
-| 11 | Aaditya Goswami | @aadii02 | NO | **0** | BELOW |
-| 12 | Abhishek Jain | @abhishek261007 | NO | **0** | BELOW |
-| 13 | Aditya Nukala | @adikp98 | YES | **0** | BELOW |
-| 14 | Aditya Reddy | @aditya-1020 | NO | **0** | BELOW |
-| 15 | Aman Sharma | @captain1508 | NO | **0** | BELOW |
-| 16 | Amrutha M | @amrutham-24 | NO | **0** | BELOW |
-| 17 | Anandu Rajan | @anandurajan1209 | NO | **0** | BELOW |
-| 18 | Anusheel Singh | @anusheelsingh12 | NO | **0** | BELOW |
-| 19 | Arafat Babar | @arafatbabar | NO | **0** | BELOW |
-| 20 | Arijit Ghosh | @ari-jit | NO | **0** | BELOW |
+| 8 | Revand Pradeep | @revx5 | YES | **70** | BELOW |
+| 9 | Harshit Kumar Sharma | @harshit2387 | YES | **40** | BELOW |
+| 10 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
+| 11 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
+| 12 | Aaditya Goswami | @aadii02 | NO | **0** | BELOW |
+| 13 | Abhishek Jain | @abhishek261007 | NO | **0** | BELOW |
+| 14 | Aditya Nukala | @adikp98 | YES | **0** | BELOW |
+| 15 | Aditya Reddy | @aditya-1020 | NO | **0** | BELOW |
+| 16 | Aman Sharma | @captain1508 | NO | **0** | BELOW |
+| 17 | Amrutha M | @amrutham-24 | NO | **0** | BELOW |
+| 18 | Anandu Rajan | @anandurajan1209 | NO | **0** | BELOW |
+| 19 | Anusheel Singh | @anusheelsingh12 | NO | **0** | BELOW |
+| 20 | Arafat Babar | @arafatbabar | NO | **0** | BELOW |
 
 _Showing top 20 of 69 - full list in [SCORES.md](SCORES.md)_
 <!-- SCORES_END -->
