@@ -1,7 +1,7 @@
 {
   "fellow": "Full Name exactly as in fellows.csv, e.g. Arjun A",
   "github": "Your GitHub username or profile URL, e.g. arjnchrn (must map to the fellow above)",
-  "type": "PurchaseProof | Blog | Linkedin | X | Project | Workshop | Documentation contribution | Video | Fellowship Referral | Bug",
+  "type": "PurchaseProof | Blog | Linkedin | X | Project | Workshop | Documentation contribution | Video | YT Video | Reel | Fellowship Referral | Bug",
   "title": "Short title of your post / repo / workshop",
   "link": "https://...",
   "date": "YYYY-MM-DD"
