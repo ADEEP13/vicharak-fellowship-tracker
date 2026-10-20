@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-20 05:39 UTC
+# Submissions by Fellow - 2026-10-20 05:40 UTC
 
-_Total: 29 accepted submissions across 20/69 fellows_
+_Total: 30 accepted submissions across 20/69 fellows_
 
 ## Adeep AG - 1 submission(s), 0 pts
 - [PurchaseProof] Shrike Lite Order #4726 (2026-10-09) - https://drive.google.com/drive/u/0/folders/1h7LZbNftaQJHPZZ7_Fp8lw2rfFcRpzPM - 0 pts - `Adeep_AG_PurchaseProof_2026-10-09.json`
@@ -66,7 +66,8 @@ _Total: 29 accepted submissions across 20/69 fellows_
 - [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-07) - https://drive.google.com/file/d/15P0vRGSMZeC6cAN4dE6t7xOi2WeBy2j3/view?usp=sharing - 0 pts - `Veer_Kishan_Whabi_PurchaseProof_2026-10-07.json`
 - [X] Vicharak Fellowship Post-1 (2026-10-16) - https://docs.google.com/document/d/1r94aN2mwUiMcJ8wOCVw6MSr8-jLUZ3vR-yG5TSVFDsM/edit?tab=t.0 - 40 pts - `Veer_Kishan_Whabi_X_2026-10-16.json`
 
-## yatharth vishwa - 3 submission(s), 110 pts
+## yatharth vishwa - 4 submission(s), 150 pts
 - [Linkedin] Joining Vicharak fellowship program (2026-10-08) - https://www.linkedin.com/feed/update/urn:li:activity:7513978284406337537/ - 40 pts - `yatharth_vishwa_Linkedin_2026-10-08.json`
+- [Linkedin] ShrikeFi FPGA OTA demo (2026-10-13) - https://www.linkedin.com/feed/update/urn:li:activity:7515066355432345600/ - 40 pts - `yatharth_vishwa_Linkedin_2026-10-08 copy.json`
 - [Project] OTA support for ShrikeFi's FPGA (2026-10-13) - https://github.com/yatharthvishwa/ShrikeFi_FPGAOTA - 70 pts - `yatharth_vishwa_Project_2026-10-13.json`
 - [PurchaseProof] PurchaseProof (2026-10-03) - https://drive.google.com/file/d/16SCtfxldNgffWbm9B9NtIkQyjrcxq1QA/view?usp=sharing - 0 pts - `yatharth_vishwa_PurchaseProof_2026-10-03.json`

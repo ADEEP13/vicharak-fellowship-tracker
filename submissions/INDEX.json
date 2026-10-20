@@ -255,6 +255,14 @@
       "file": "yatharth_vishwa_Linkedin_2026-10-08.json"
     },
     {
+      "type": "Linkedin",
+      "points": 40,
+      "title": "ShrikeFi FPGA OTA demo",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7515066355432345600/",
+      "date": "2026-10-13",
+      "file": "yatharth_vishwa_Linkedin_2026-10-08 copy.json"
+    },
+    {
       "type": "Project",
       "points": 70,
       "title": "OTA support for ShrikeFi's FPGA",
