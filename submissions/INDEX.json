@@ -255,6 +255,14 @@
       "file": "yatharth_vishwa_Linkedin_2026-10-08.json"
     },
     {
+      "type": "Project",
+      "points": 70,
+      "title": "OTA support for ShrikeFi's FPGA",
+      "link": "https://github.com/yatharthvishwa/ShrikeFi_FPGAOTA",
+      "date": "2026-10-13",
+      "file": "yatharth_vishwa_Project_2026-10-13.json"
+    },
+    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "PurchaseProof",

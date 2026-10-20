@@ -90,17 +90,17 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-17 06:59 UTC - Threshold 250 - 7/69 with points_
+_Updated 2026-10-20 05:39 UTC - Threshold 250 - 7/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
-| 1 | Amaan Pathan | @amaan9737 | YES | **80** | BELOW |
-| 2 | Saksham Sud | @geneticscrol | YES | **70** | BELOW |
-| 3 | Harshit Kumar Sharma | @harshit2387 | YES | **40** | BELOW |
-| 4 | Nathan Mathews | @deagle2 | YES | **40** | BELOW |
-| 5 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
-| 6 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
-| 7 | yatharth vishwa | @yatharthvishwa | YES | **40** | BELOW |
+| 1 | yatharth vishwa | @yatharthvishwa | YES | **110** | BELOW |
+| 2 | Amaan Pathan | @amaan9737 | YES | **80** | BELOW |
+| 3 | Saksham Sud | @geneticscrol | YES | **70** | BELOW |
+| 4 | Harshit Kumar Sharma | @harshit2387 | YES | **40** | BELOW |
+| 5 | Nathan Mathews | @deagle2 | YES | **40** | BELOW |
+| 6 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
+| 7 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
 | 8 | Aaditya Goswami | @aadii02 | NO | **0** | BELOW |
 | 9 | Abhishek Jain | @abhishek261007 | NO | **0** | BELOW |
 | 10 | Adeep AG | @adeep13 | YES | **0** | BELOW |

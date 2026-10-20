@@ -1,16 +1,16 @@
-# Fellowship Scores - 2026-10-17 06:59 UTC
+# Fellowship Scores - 2026-10-20 05:39 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
 | Rank | Fellow | GitHub | Kit | Project | LinkedIn | Blog | X | Workshop | Other | Total | Status |
 |---:|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Amaan Pathan | @amaan9737 | YES | 0 | 1 | 0 | 1 | 0 | 0 | **80** | BELOW |
-| 2 | Saksham Sud | @geneticscrol | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
-| 3 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
-| 4 | Nathan Mathews | @deagle2 | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
-| 5 | Vaibhav Santosh Tiwari | @orignalbox | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
-| 6 | Veer Kishan Whabi | @veeru24ec006 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
-| 7 | yatharth vishwa | @yatharthvishwa | YES | 0 | 1 | 0 | 0 | 0 | 0 | **40** | BELOW |
+| 1 | yatharth vishwa | @yatharthvishwa | YES | 1 | 1 | 0 | 0 | 0 | 0 | **110** | BELOW |
+| 2 | Amaan Pathan | @amaan9737 | YES | 0 | 1 | 0 | 1 | 0 | 0 | **80** | BELOW |
+| 3 | Saksham Sud | @geneticscrol | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
+| 4 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
+| 5 | Nathan Mathews | @deagle2 | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
+| 6 | Vaibhav Santosh Tiwari | @orignalbox | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
+| 7 | Veer Kishan Whabi | @veeru24ec006 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
 | 8 | Aaditya Goswami | @aadii02 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 9 | Abhishek Jain | @abhishek261007 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 10 | Adeep AG | @adeep13 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
