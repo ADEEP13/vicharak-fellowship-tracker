@@ -1,4 +1,4 @@
-# Fellowship Scores - 2026-10-20 05:45 UTC
+# Fellowship Scores - 2026-10-20 05:47 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
@@ -6,21 +6,21 @@ Threshold: 250 (ELIGIBLE >= 250)
 |---:|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | yatharth vishwa | @yatharthvishwa | YES | 1 | 2 | 0 | 0 | 0 | 0 | **150** | BELOW |
 | 2 | Amaan Pathan | @amaan9737 | YES | 0 | 1 | 0 | 1 | 0 | 0 | **80** | BELOW |
-| 3 | Saksham Sud | @geneticscrol | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
-| 4 | Ankit raj | @ankitra-j | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
-| 5 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
-| 6 | Nathan Mathews | @deagle2 | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
-| 7 | Vaibhav Santosh Tiwari | @orignalbox | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
-| 8 | Veer Kishan Whabi | @veeru24ec006 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
-| 9 | Aaditya Goswami | @aadii02 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 10 | Abhishek Jain | @abhishek261007 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 11 | Adeep AG | @adeep13 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 12 | Aditya Nukala | @adikp98 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 13 | Aditya Reddy | @aditya-1020 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 14 | Aman Sharma | @captain1508 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 15 | Amrutha M | @amrutham-24 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 16 | Anandu Rajan | @anandurajan1209 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 17 | ANNESTIO PIETY CASTANHA | @apcetc | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 3 | ANNESTIO PIETY CASTANHA | @apcetc | NO | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
+| 4 | Saksham Sud | @geneticscrol | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
+| 5 | Ankit raj | @ankitra-j | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
+| 6 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
+| 7 | Nathan Mathews | @deagle2 | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
+| 8 | Vaibhav Santosh Tiwari | @orignalbox | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
+| 9 | Veer Kishan Whabi | @veeru24ec006 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
+| 10 | Aaditya Goswami | @aadii02 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 11 | Abhishek Jain | @abhishek261007 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 12 | Adeep AG | @adeep13 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 13 | Aditya Nukala | @adikp98 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 14 | Aditya Reddy | @aditya-1020 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 15 | Aman Sharma | @captain1508 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 16 | Amrutha M | @amrutham-24 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 17 | Anandu Rajan | @anandurajan1209 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 18 | Anusheel Singh | @anusheelsingh12 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 19 | Arafat Babar | @arafatbabar | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 20 | Arijit Ghosh | @ari-jit | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |

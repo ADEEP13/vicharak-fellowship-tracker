@@ -65,11 +65,11 @@
   ],
   "ANNESTIO PIETY CASTANHA": [
     {
-      "type": "PurchaseProof",
-      "points": 0,
-      "title": "Vicharak Kit Purchase Proof",
-      "link": "https://raw.githubusercontent.com/apcetc/Vicharak_Campus_Fellowship_APC-/main/submissions/purchase_proof/INVOICE_APC.png",
-      "date": "2026-10-03",
+      "type": "Project",
+      "points": 70,
+      "title": "ShrikeFi 16-bit Multicycle CPU",
+      "link": "https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1",
+      "date": "2026-10-12",
       "file": "ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json"
     }
   ],

@@ -1,4 +1,4 @@
-# Submissions by Fellow - 2026-10-20 05:45 UTC
+# Submissions by Fellow - 2026-10-20 05:47 UTC
 
 _Total: 31 accepted submissions across 20/69 fellows_
 
@@ -17,8 +17,8 @@ _Total: 31 accepted submissions across 20/69 fellows_
 - [Blog] Shrike-Scope: Building a USB Oscilloscope with the Vicharak Shrike-Fi (2026-10-15) - https://docs.google.com/document/d/1LPNTUWZky4v0anmgryq7N7yoyT6Yg6AC/edit?usp=sharing&ouid=109376149344711751562&rtpof=true&sd=true - 40 pts - `Ankit_raj_Blog_2026-10-15.json`
 - [PurchaseProof] Vicharak Fellowship Kit Purchase Proof (2026-10-13) - https://drive.google.com/drive/folders/1ULPYCRh1iDjAZz93mgKhIKx7e3LOg7Sx - 0 pts - `Ankit_raj_PurchaseProof_2026-10-13.json`
 
-## ANNESTIO PIETY CASTANHA - 1 submission(s), 0 pts
-- [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-03) - https://raw.githubusercontent.com/apcetc/Vicharak_Campus_Fellowship_APC-/main/submissions/purchase_proof/INVOICE_APC.png - 0 pts - `ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json`
+## ANNESTIO PIETY CASTANHA - 1 submission(s), 70 pts
+- [Project] ShrikeFi 16-bit Multicycle CPU (2026-10-12) - https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1 - 70 pts - `ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json`
 
 ## Gantla Venkata Sravan - 1 submission(s), 0 pts
 - [PurchaseProof] Purchase Proof (2026-10-03) - https://x.com/Sravan271828/status/2103878332039549257/photo/4 - 0 pts - `Gantla_Venkata_Sravan_PurchaseProof_2026-10-03.json`
