@@ -25,12 +25,44 @@ jobs:
           python - <<'EOF'
           import json, re
           from pathlib import Path
-          idx = json.loads(Path("submissions/INDEX.json").read_text(encoding="utf-8"))
+          # Read the SOURCE OF TRUTH (submissions/*.json), not the bot-generated
+          # INDEX.json. INDEX.json may be stale when this workflow runs alongside
+          # score-on-merge, which would write a stale project into this list.
+          points = json.loads(Path("points.json").read_text(encoding="utf-8"))
+          aliases = {k.lower(): v for k, v in points.get("_aliases", {}).items()}
+          def canon(raw):
+              r = (raw or "").strip()
+              if r in points:
+                  return r
+              low = r.lower()
+              if low in aliases:
+                  return aliases[low]
+              if "github" in low or "project" in low:
+                  return "Project"
+              if "linked" in low:
+                  return "Linkedin"
+              if low in ("x", "twitter"):
+                  return "X"
+              if "blog" in low:
+                  return "Blog"
+              if "workshop" in low:
+                  return "Workshop"
+              if "purchase" in low or "kit" in low or low == "proof":
+                  return "PurchaseProof"
+              return None
           rows = []
-          for name, items in idx.items():
-              for i in items:
-                  if i.get("type") == "Project":
-                      rows.append((name, i.get("title",""), i.get("link","")))
+          for f in sorted(Path("submissions").glob("*.json")):
+              if f.name in ("INDEX.json", "TEMPLATE.json"):
+                  continue
+              try:
+                  o = json.loads(f.read_text(encoding="utf-8"))
+              except Exception:
+                  continue
+              if canon(str(o.get("type", ""))) != "Project":
+                  continue
+              rows.append((str(o.get("fellow", "")).strip(),
+                           str(o.get("title", "")).strip(),
+                           str(o.get("link", "")).strip()))
           rows.sort(key=lambda r: (r[0].lower(), r[1].lower()))
           lines = ["| Fellow | Project | Link |", "|---|---|---|"]
           for n, t, l in rows:
@@ -47,6 +79,41 @@ jobs:
               print("PROJECTS.md updated")
           else:
               print("PROJECTS.md already current")
+          EOF
+      - name: Verify no project links a reverted submission
+        run: |
+          python - <<'EOF'
+          import json, re, sys
+          from pathlib import Path
+          # Any Project link that belongs to a reverted/rejected submission must not
+          # be advertised here. Compare against the live submissions/ folder.
+          links = set()
+          for f in Path("submissions").glob("*.json"):
+              if f.name in ("INDEX.json", "TEMPLATE.json"):
+                  continue
+              try:
+                  o = json.loads(f.read_text(encoding="utf-8"))
+              except Exception:
+                  continue
+              l = str(o.get("link", "")).strip()
+              if l:
+                  links.add(l)
+          doc = Path("docs/PROJECTS.md").read_text(encoding="utf-8")
+          bad = []
+          for line in doc.splitlines():
+              if not line.startswith("|") or line.startswith("|---") or "| Fellow |" in line:
+                  continue
+              cells = [c.strip() for c in line.strip("|").split("|")]
+              if len(cells) < 3:
+                  continue
+              if cells[2].startswith("http") and cells[2] not in links:
+                  bad.append(cells[2])
+          if bad:
+              print("FAIL: docs/PROJECTS.md lists links with no matching submission file:")
+              for b in bad:
+                  print("  -", b)
+              sys.exit(1)
+          print("PASS: every listed project links a live submission")
           EOF
       - name: Commit back
         if: always()
