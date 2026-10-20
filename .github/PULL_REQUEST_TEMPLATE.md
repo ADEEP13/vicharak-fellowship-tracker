@@ -17,6 +17,9 @@ First PR from any fellow must be `[PurchaseProof] Your Name — board/invoice im
 - [ ] `date` is YYYY-MM-DD
 
 > Seeing a conflict or a red `file-guard` check? Read [`docs/FORKS.md`](../docs/FORKS.md).
+>
+> Submitting a **Project**? Check [`docs/PROJECTS.md`](../docs/PROJECTS.md) first — it lists
+> every project already accepted plus the upstream examples, so you don't duplicate one.
 
 **Link:**
 Paste your Blog / LinkedIn / X / Project repo / Workshop link here:

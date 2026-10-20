@@ -26,6 +26,12 @@
 
 If your PR shows a conflict or a `file-guard` failure, see [`docs/FORKS.md`](../docs/FORKS.md).
 
+## Before you submit a Project
+
+Check [`docs/PROJECTS.md`](../docs/PROJECTS.md) first — it lists every project already
+accepted in this program and the 32 upstream examples in `vicharak-in/shrike`. If your
+idea is already listed, build something different or extend it meaningfully.
+
 ## Single-name listing (auto-generated)
 - [`INDEX.md`](INDEX.md) — all accepted submissions grouped under a single fellow name (`## Name - N submission(s), P pts` + bullet per link). Start here to browse.
 - [`INDEX.json`](INDEX.json) — same data, machine-readable (`{ "Fellow Name": [{type, points, title, link, date, file}] }`).
