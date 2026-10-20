@@ -1,4 +1,4 @@
-# Fellowship Scores - 2026-10-20 05:47 UTC
+# Fellowship Scores - 2026-10-20 05:48 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
@@ -6,9 +6,9 @@ Threshold: 250 (ELIGIBLE >= 250)
 |---:|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | yatharth vishwa | @yatharthvishwa | YES | 1 | 2 | 0 | 0 | 0 | 0 | **150** | BELOW |
 | 2 | Amaan Pathan | @amaan9737 | YES | 0 | 1 | 0 | 1 | 0 | 0 | **80** | BELOW |
-| 3 | ANNESTIO PIETY CASTANHA | @apcetc | NO | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
-| 4 | Saksham Sud | @geneticscrol | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
-| 5 | Ankit raj | @ankitra-j | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
+| 3 | Ankit raj | @ankitra-j | YES | 0 | 0 | 1 | 1 | 0 | 0 | **80** | BELOW |
+| 4 | ANNESTIO PIETY CASTANHA | @apcetc | NO | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
+| 5 | Saksham Sud | @geneticscrol | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
 | 6 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
 | 7 | Nathan Mathews | @deagle2 | YES | 0 | 0 | 1 | 0 | 0 | 0 | **40** | BELOW |
 | 8 | Vaibhav Santosh Tiwari | @orignalbox | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
