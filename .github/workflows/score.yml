@@ -14,6 +14,10 @@ permissions:
 
 jobs:
   score:
+    # Only score in the canonical repo. In a student's fork, `on: push` also fires and
+    # the bot would commit regenerated score files into their branch, which then
+    # conflicts with main and pollutes the PR. See docs/FORKS.md.
+    if: github.event.repository.fork == false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

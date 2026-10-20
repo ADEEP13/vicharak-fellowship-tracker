@@ -22,30 +22,60 @@ jobs:
           import json, os, subprocess, sys
           repo = os.environ["REPO"]
           pr = os.environ["PR_NUMBER"]
-          author = os.environ["PR_AUTHOR"].lower()
-          # Admins/bot may touch anything (rule changes, rescues, template restores).
-          if author in ("nilangwork17",):
-              print(f"PASS: author @{author} is admin - exempt.")
+          pr_author = os.environ["PR_AUTHOR"].lower()
+          ADMIN = "nilangwork17"
+
+          def gh(args):
+              p = subprocess.run(["gh", "api"] + args, capture_output=True, text=True)
+              if p.returncode != 0:
+                  print(f"ERROR: gh api failed: {p.stderr.strip()}")
+                  sys.exit(1)
+              return p.stdout
+
+          # Is the newest commit on this branch authored by a repo admin?
+          # If so, an admin has curated the branch -> strict single-file rule does not apply.
+          commits = json.loads(gh([f"repos/{repo}/pulls/{pr}/commits"]) or "[]")
+          last_author = ""
+          if commits:
+              last_author = ((commits[-1].get("author") or {}).get("login") or "").lower()
+          if pr_author == ADMIN or last_author == ADMIN:
+              print(f"PASS: admin-curated branch (PR author @{pr_author}, last commit by @{last_author or 'unknown'}).")
               sys.exit(0)
-          out = subprocess.run(
-              ["gh", "api", f"repos/{repo}/pulls/{pr}/files", "--paginate",
-               "-q", '.[] | "\\(.status) \\(.filename)"'],
-              capture_output=True, text=True, check=True)
-          files = [l for l in out.stdout.splitlines() if l.strip()]
+
+          files = [json.loads(line) for line in gh(
+              [f"repos/{repo}/pulls/{pr}/files", "--paginate", "-q", ".[] | @json"]).splitlines() if line.strip()]
           print("Changed files:")
           for f in files:
-              print(f"  {f}")
-          bad = [f for f in files
-                 if not (f.startswith("added submissions/")
-                         and f.endswith(".json")
-                         and "TEMPLATE" not in f.split(" ", 1)[1])]
-          if len(files) != 1:
-              print(f"FAIL: student PRs must add exactly ONE file under submissions/ (found {len(files)}). One file = one PR.")
+              print(f"  {f.get('status')}: {f.get('filename')}")
+
+          # 1. Missing .json extension -> silent zero points (robot only reads *.json)
+          bad_ext = [f["filename"] for f in files
+                     if f.get("status") == "added"
+                     and f["filename"].startswith("submissions/")
+                     and not f["filename"].endswith(".json")]
+          if bad_ext:
+              print("FAIL: these files have no .json extension. The scorer only reads "
+                    "submissions/*.json, so they would be IGNORED and score 0 points silently.")
+              for b in bad_ext:
+                  print(f"  - {b}  ->  rename to {b}.json")
               sys.exit(1)
-          if bad:
-              print("FAIL: non-admin PRs may only ADD a new submissions/*.json file. "
-                    "No edits, renames, or deletes - and never touch TEMPLATE.json, "
-                    "points.json, fellows.csv, scripts/, .github/, SCORES.md, README.md or allocations/.")
+
+          # 2. Anything that is not a brand-new submissions/*.json is not allowed
+          allowed = [f for f in files
+                     if f.get("status") == "added"
+                     and f["filename"].startswith("submissions/")
+                     and f["filename"].endswith(".json")
+                     and "TEMPLATE" not in os.path.basename(f["filename"])]
+          if len(files) != 1 or not allowed:
+              print(f"FAIL: student PRs must add exactly ONE new submissions/*.json file "
+                    f"(found {len(files)} changed file(s)). One file = one PR.")
+              for f in files:
+                  if f not in allowed:
+                      print(f"  - {f.get('status')}: {f.get('filename')}  (not allowed)")
+              print("  Allowed: adding exactly one new submissions/<Name>_<Type>_<YYYY-MM-DD>.json")
+              print("  Never: editing/deleting existing submissions, TEMPLATE.json, points.json,")
+              print("          fellows.csv, scripts/, .github/, SCORES.md, README.md or allocations/.")
               sys.exit(1)
-          print("PASS: single new submissions/*.json file.")
+
+          print(f"PASS: single new submission file -> {allowed[0]['filename']}")
           EOF
