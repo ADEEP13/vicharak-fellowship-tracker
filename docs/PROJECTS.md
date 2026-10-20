@@ -15,12 +15,12 @@ gets closed and you score 0 for it.
 
 | Fellow | Project | Link |
 |---|---|---|
+| Adeep AG | Geto Web IDE : For Shrike Series board(RP2040 & RP2350) | https://github.com/ADEEP13/IDE |
 | ANNESTIO PIETY CASTANHA | ShrikeFi 16-bit Multicycle CPU | https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1 |
-| Adeep AG | Geto Web IDE (for Shrike RP2040 & RP2350) | https://github.com/ADEEP13/IDE |
 | Nathan Mathews | Tiny ILA for Shrike | https://github.com/Deagle2/shrike-traces |
 | Revand Pradeep | Shrike-Sentinel | https://docs.google.com/document/d/1DzsEX9RhsuA5Obxm0qkuIky-P2YCXNoWIiYl_c4sDtA/edit?usp=sharing |
-| Saksham Sud | Perch — passive environmental radio census for ShrikeFi | https://github.com/Geneticscrol/perch |
-| Saksham Sud | ShrikeFi BLE find-my-board tag (iBeacon + Find Me) | https://github.com/Geneticscrol/shrikefi-ble-tag |
+| Saksham Sud | Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor) | https://github.com/Geneticscrol/perch |
+| Saksham Sud | ShrikeFi BLE find-my-board tag (iBeacon + Find Me + last-seen map) | https://github.com/Geneticscrol/shrikefi-ble-tag |
 | yatharth vishwa | OTA support for ShrikeFi's FPGA | https://github.com/yatharthvishwa/ShrikeFi_FPGAOTA |
 
 *(This list is also visible in [`submissions/INDEX.md`](../submissions/INDEX.md), which regenerates on every merge.)*
