@@ -84,6 +84,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 - `docs/JOIN.md` - how to join (purchase proof = first PR).
 - `docs/FORKS.md` - why your PR may conflict, and how to fix it.
 - `docs/PROJECTS.md` - already-accepted projects + upstream examples. **Check this before submitting a Project.**
+- `docs/REVERSED.md` - submissions whose merge was reversed (points deducted).
 
 ## For Admin (me)
 
