@@ -1,9 +1,8 @@
-# Submissions by Fellow - 2026-10-17 14:54 UTC
+# Submissions by Fellow - 2026-10-20 05:53 UTC
 
-_Total: 29 accepted submissions across 20/69 fellows_
+_Total: 33 accepted submissions across 20/69 fellows_
 
-## Adeep AG - 2 submission(s), 70 pts
-- [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
+## Adeep AG - 1 submission(s), 0 pts
 - [PurchaseProof] Shrike Lite Order #4726 (2026-10-09) - https://drive.google.com/drive/u/0/folders/1h7LZbNftaQJHPZZ7_Fp8lw2rfFcRpzPM - 0 pts - `Adeep_AG_PurchaseProof_2026-10-09.json`
 
 ## Aditya Nukala - 1 submission(s), 0 pts
@@ -14,11 +13,13 @@ _Total: 29 accepted submissions across 20/69 fellows_
 - [PurchaseProof] PurchaseProof_pack of 2 ShrikeFi_Amaan Pathan (2026-10-08) - https://drive.google.com/file/d/1UEn-QpIAYLxYL8V42cCf-1WJR7T8QCbP/view?usp=sharing - 0 pts - `Amaan_Pathan_PurchaseProof_2026-10-08.json`
 - [X] Vicharak Campus Fellowship Kickoff (2026-10-10) - https://x.com/AstroAmaan/status/2108955198274379963 - 40 pts - `Amaan_Pathan_X_2026-10-10.json`
 
-## Ankit raj - 1 submission(s), 0 pts
+## Ankit raj - 3 submission(s), 80 pts
+- [Blog] Shrike-Scope: Building a USB Oscilloscope with the Vicharak Shrike-Fi (2026-10-15) - https://docs.google.com/document/d/1LPNTUWZky4v0anmgryq7N7yoyT6Yg6AC/edit?usp=sharing&ouid=109376149344711751562&rtpof=true&sd=true - 40 pts - `Ankit_raj_Blog_2026-10-15.json`
 - [PurchaseProof] Vicharak Fellowship Kit Purchase Proof (2026-10-13) - https://drive.google.com/drive/folders/1ULPYCRh1iDjAZz93mgKhIKx7e3LOg7Sx - 0 pts - `Ankit_raj_PurchaseProof_2026-10-13.json`
+- [X] Shrike-Scope: laptop oscilloscope on Vicharak Shrike-Fi (2026-10-15) - https://docs.google.com/document/d/1HdydgKhk10kyXjXO52IPTpVtqnq3nk1D1awjBy11p0s/edit?usp=sharing - 40 pts - `Ankit_raj_X_2026-10-15.json`
 
-## ANNESTIO PIETY CASTANHA - 1 submission(s), 0 pts
-- [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-03) - https://raw.githubusercontent.com/apcetc/Vicharak_Campus_Fellowship_APC-/main/submissions/purchase_proof/INVOICE_APC.png - 0 pts - `ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json`
+## ANNESTIO PIETY CASTANHA - 1 submission(s), 70 pts
+- [Project] ShrikeFi 16-bit Multicycle CPU (2026-10-12) - https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1 - 70 pts - `ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json`
 
 ## Gantla Venkata Sravan - 1 submission(s), 0 pts
 - [PurchaseProof] Purchase Proof (2026-10-03) - https://x.com/Sravan271828/status/2103878332039549257/photo/4 - 0 pts - `Gantla_Venkata_Sravan_PurchaseProof_2026-10-03.json`
@@ -49,8 +50,9 @@ _Total: 29 accepted submissions across 20/69 fellows_
 ## Rudra Das - 1 submission(s), 0 pts
 - [PurchaseProof] Purchase proof of shrike lite, from Vicharak website, order number #4654 (2026-10-05) - https://drive.google.com/file/d/1MZLztG02_bqR_z3ZRcP0hvcpkmajiLCZ/view?usp=sharing - 0 pts - `Rudra_Das_PurchaseProof_2026-10-05.json`
 
-## Saksham Sud - 2 submission(s), 70 pts
+## Saksham Sud - 3 submission(s), 140 pts
 - [Project] ShrikeFi BLE find-my-board tag (iBeacon + Find Me + last-seen map) (2026-10-06) - https://github.com/Geneticscrol/shrikefi-ble-tag - 70 pts - `Saksham_Sud_Project_2026-10-06.json`
+- [Project] Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor) (2026-10-13) - https://github.com/Geneticscrol/perch - 70 pts - `Saksham_Sud_Project_2026-10-13.json`
 - [PurchaseProof] Shrike Lite + ShrikeFi purchase proof, Order #6325 (2026-10-05) - https://raw.githubusercontent.com/Geneticscrol/vicharak-fellowship-tracker/proof-assets/proofs/Saksham_Sud_proof.png - 0 pts - `Saksham_Sud_PurchaseProof_2026-10-05.json`
 
 ## Shreya Veni - 1 submission(s), 0 pts
@@ -67,6 +69,8 @@ _Total: 29 accepted submissions across 20/69 fellows_
 - [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-07) - https://drive.google.com/file/d/15P0vRGSMZeC6cAN4dE6t7xOi2WeBy2j3/view?usp=sharing - 0 pts - `Veer_Kishan_Whabi_PurchaseProof_2026-10-07.json`
 - [X] Vicharak Fellowship Post-1 (2026-10-16) - https://docs.google.com/document/d/1r94aN2mwUiMcJ8wOCVw6MSr8-jLUZ3vR-yG5TSVFDsM/edit?tab=t.0 - 40 pts - `Veer_Kishan_Whabi_X_2026-10-16.json`
 
-## yatharth vishwa - 2 submission(s), 40 pts
+## yatharth vishwa - 4 submission(s), 150 pts
 - [Linkedin] Joining Vicharak fellowship program (2026-10-08) - https://www.linkedin.com/feed/update/urn:li:activity:7513978284406337537/ - 40 pts - `yatharth_vishwa_Linkedin_2026-10-08.json`
+- [Linkedin] ShrikeFi FPGA OTA demo (2026-10-13) - https://www.linkedin.com/feed/update/urn:li:activity:7515066355432345600/ - 40 pts - `yatharth_vishwa_Linkedin_2026-10-08 copy.json`
+- [Project] OTA support for ShrikeFi's FPGA (2026-10-13) - https://github.com/yatharthvishwa/ShrikeFi_FPGAOTA - 70 pts - `yatharth_vishwa_Project_2026-10-13.json`
 - [PurchaseProof] PurchaseProof (2026-10-03) - https://drive.google.com/file/d/16SCtfxldNgffWbm9B9NtIkQyjrcxq1QA/view?usp=sharing - 0 pts - `yatharth_vishwa_PurchaseProof_2026-10-03.json`

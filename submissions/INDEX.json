@@ -1,14 +1,6 @@
 {
   "Adeep AG": [
     {
-      "type": "Project",
-      "points": 70,
-      "title": "Geto Web IDE : For Shrike Series board(RP2040 & RP2350)",
-      "link": "https://github.com/ADEEP13/IDE",
-      "date": "2026-10-17",
-      "file": "Adeep_AG_Project_2026-10-17.json"
-    },
-    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "Shrike Lite Order #4726",
@@ -55,21 +47,37 @@
   ],
   "Ankit raj": [
     {
+      "type": "Blog",
+      "points": 40,
+      "title": "Shrike-Scope: Building a USB Oscilloscope with the Vicharak Shrike-Fi",
+      "link": "https://docs.google.com/document/d/1LPNTUWZky4v0anmgryq7N7yoyT6Yg6AC/edit?usp=sharing&ouid=109376149344711751562&rtpof=true&sd=true",
+      "date": "2026-10-15",
+      "file": "Ankit_raj_Blog_2026-10-15.json"
+    },
+    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "Vicharak Fellowship Kit Purchase Proof",
       "link": "https://drive.google.com/drive/folders/1ULPYCRh1iDjAZz93mgKhIKx7e3LOg7Sx",
       "date": "2026-10-13",
       "file": "Ankit_raj_PurchaseProof_2026-10-13.json"
+    },
+    {
+      "type": "X",
+      "points": 40,
+      "title": "Shrike-Scope: laptop oscilloscope on Vicharak Shrike-Fi",
+      "link": "https://docs.google.com/document/d/1HdydgKhk10kyXjXO52IPTpVtqnq3nk1D1awjBy11p0s/edit?usp=sharing",
+      "date": "2026-10-15",
+      "file": "Ankit_raj_X_2026-10-15.json"
     }
   ],
   "ANNESTIO PIETY CASTANHA": [
     {
-      "type": "PurchaseProof",
-      "points": 0,
-      "title": "Vicharak Kit Purchase Proof",
-      "link": "https://raw.githubusercontent.com/apcetc/Vicharak_Campus_Fellowship_APC-/main/submissions/purchase_proof/INVOICE_APC.png",
-      "date": "2026-10-03",
+      "type": "Project",
+      "points": 70,
+      "title": "ShrikeFi 16-bit Multicycle CPU",
+      "link": "https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1",
+      "date": "2026-10-12",
       "file": "ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json"
     }
   ],
@@ -189,6 +197,14 @@
       "file": "Saksham_Sud_Project_2026-10-06.json"
     },
     {
+      "type": "Project",
+      "points": 70,
+      "title": "Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor)",
+      "link": "https://github.com/Geneticscrol/perch",
+      "date": "2026-10-13",
+      "file": "Saksham_Sud_Project_2026-10-13.json"
+    },
+    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "Shrike Lite + ShrikeFi purchase proof, Order #6325",
@@ -261,6 +277,22 @@
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7513978284406337537/",
       "date": "2026-10-08",
       "file": "yatharth_vishwa_Linkedin_2026-10-08.json"
+    },
+    {
+      "type": "Linkedin",
+      "points": 40,
+      "title": "ShrikeFi FPGA OTA demo",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7515066355432345600/",
+      "date": "2026-10-13",
+      "file": "yatharth_vishwa_Linkedin_2026-10-08 copy.json"
+    },
+    {
+      "type": "Project",
+      "points": 70,
+      "title": "OTA support for ShrikeFi's FPGA",
+      "link": "https://github.com/yatharthvishwa/ShrikeFi_FPGAOTA",
+      "date": "2026-10-13",
+      "file": "yatharth_vishwa_Project_2026-10-13.json"
     },
     {
       "type": "PurchaseProof",
