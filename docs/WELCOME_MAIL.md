@@ -18,7 +18,7 @@ Nothing else counts until this is accepted. Steps (full guide: `docs/JOIN.md` in
 4. Once merged, your `Kit` flips to `YES` on the scoreboard — you're unlocked.
 
 **3. Then submit your work for points (need 250 to become ELIGIBLE)**
-Points: Blog 40, LinkedIn 40, X 40, Project 70, Workshop 100, Documentation contribution 30, Video 90, YT Video 50, Reel 50, Fellowship Referral 20, Bug 25.
+Points: Blog 40, LinkedIn 40, X 40, Project 70, Workshop 100, Documentation contribution 30, YT longform Video 90, YT shorts 50, Insta reel 50, Fellowship Referral 20, Bug 25.
 1. Prepare your work as a **draft first** (Google Doc, public link) — do NOT post publicly yet.
 2. One submission = one JSON file = one PR, titled `[Type] Your Name` (e.g. `[Blog] Arjun A`).
 3. After your PR is merged, post the final version on the actual platform (Medium / x.com / LinkedIn / GitHub / YouTube).

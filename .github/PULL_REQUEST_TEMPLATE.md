@@ -1,6 +1,6 @@
 ## Submission PR — required format
 
-**Title must start with one of:** `[PurchaseProof]` `[Blog]` `[Linkedin]` `[X]` `[Project]` `[Workshop]` `[Documentation contribution]` `[Video]` `[YT Video]` `[Reel]` `[Fellowship Referral]` `[Bug]`
+**Title must start with one of:** `[PurchaseProof]` `[Blog]` `[Linkedin]` `[X]` `[Project]` `[Workshop]` `[Documentation contribution]` `[YT longform Video]` `[YT shorts]` `[Insta reel]` `[Fellowship Referral]` `[Bug]`
 Example: `[Blog] Arjun A — My Axon Lite build https://medium.com/...`
 First PR from any fellow must be `[PurchaseProof] Your Name — board/invoice image link` (0 pts, flips Kit to YES in the score block).
 
