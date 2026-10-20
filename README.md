@@ -90,18 +90,18 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-20 06:17 UTC - Threshold 250 - 10/69 with points_
+_Updated 2026-10-20 06:23 UTC - Threshold 250 - 10/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
 | 1 | yatharth vishwa | @yatharthvishwa | YES | **150** | BELOW |
 | 2 | Saksham Sud | @geneticscrol | YES | **140** | BELOW |
-| 3 | Amaan Pathan | @amaan9737 | YES | **80** | BELOW |
-| 4 | Ankit raj | @ankitra-j | YES | **80** | BELOW |
-| 5 | Adeep AG | @adeep13 | YES | **70** | BELOW |
-| 6 | ANNESTIO PIETY CASTANHA | @apcetc | NO | **70** | BELOW |
-| 7 | Harshit Kumar Sharma | @harshit2387 | YES | **40** | BELOW |
-| 8 | Nathan Mathews | @deagle2 | YES | **40** | BELOW |
+| 3 | Nathan Mathews | @deagle2 | YES | **110** | BELOW |
+| 4 | Amaan Pathan | @amaan9737 | YES | **80** | BELOW |
+| 5 | Ankit raj | @ankitra-j | YES | **80** | BELOW |
+| 6 | Adeep AG | @adeep13 | YES | **70** | BELOW |
+| 7 | ANNESTIO PIETY CASTANHA | @apcetc | NO | **70** | BELOW |
+| 8 | Harshit Kumar Sharma | @harshit2387 | YES | **40** | BELOW |
 | 9 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
 | 10 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
 | 11 | Aaditya Goswami | @aadii02 | NO | **0** | BELOW |

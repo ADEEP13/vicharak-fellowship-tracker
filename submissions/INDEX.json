@@ -147,6 +147,14 @@
       "file": "Nathan_Mathews_Blog_2026-10-09.json"
     },
     {
+      "type": "Project",
+      "points": 70,
+      "title": "Tiny ILA for Shrike",
+      "link": "https://github.com/Deagle2/shrike-traces",
+      "date": "2026-10-17",
+      "file": "Nathan_Mathews_Project_2026-10-17.json"
+    },
+    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "Purchase proof - Shrike Lite, Order #3967",
