@@ -42,7 +42,11 @@ jobs:
           git status --short
           if ! git diff --cached --quiet; then
             git commit -m "chore: update allocations + scores [skip ci]"
-            git push
+            # Retry on race with the projects-index bot (both push to main).
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break
+              echo "push failed, retry $i"; sleep 5
+            done
           else
             echo "No allocation changes."
           fi
