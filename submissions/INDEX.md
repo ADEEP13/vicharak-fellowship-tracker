@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-20 06:28 UTC
+# Submissions by Fellow - 2026-10-20 12:34 UTC
 
-_Total: 36 accepted submissions across 20/69 fellows_
+_Total: 37 accepted submissions across 20/69 fellows_
 
 ## Adeep AG - 2 submission(s), 70 pts
 - [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
@@ -19,8 +19,9 @@ _Total: 36 accepted submissions across 20/69 fellows_
 - [PurchaseProof] Vicharak Fellowship Kit Purchase Proof (2026-10-13) - https://drive.google.com/drive/folders/1ULPYCRh1iDjAZz93mgKhIKx7e3LOg7Sx - 0 pts - `Ankit_raj_PurchaseProof_2026-10-13.json`
 - [X] Shrike-Scope: laptop oscilloscope on Vicharak Shrike-Fi (2026-10-15) - https://docs.google.com/document/d/1HdydgKhk10kyXjXO52IPTpVtqnq3nk1D1awjBy11p0s/edit?usp=sharing - 40 pts - `Ankit_raj_X_2026-10-15.json`
 
-## ANNESTIO PIETY CASTANHA - 1 submission(s), 70 pts
-- [Project] ShrikeFi 16-bit Multicycle CPU (2026-10-12) - https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1 - 70 pts - `ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json`
+## ANNESTIO PIETY CASTANHA - 2 submission(s), 70 pts
+- [Project] ShrikeFi 16-bit Multicycle CPU (2026-10-12) - https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1 - 70 pts - `ANNESTIO_PIETY_CASTANHA_Project_2026-10-12.json`
+- [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-03) - https://raw.githubusercontent.com/apcetc/Vicharak_Campus_Fellowship_APC-/main/submissions/purchase_proof/INVOICE_APC.png - 0 pts - `ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json`
 
 ## Gantla Venkata Sravan - 1 submission(s), 0 pts
 - [PurchaseProof] Purchase Proof (2026-10-03) - https://x.com/Sravan271828/status/2103878332039549257/photo/4 - 0 pts - `Gantla_Venkata_Sravan_PurchaseProof_2026-10-03.json`
