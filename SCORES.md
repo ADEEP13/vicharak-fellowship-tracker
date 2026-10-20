@@ -1,4 +1,4 @@
-# Fellowship Scores - 2026-10-20 06:28 UTC
+# Fellowship Scores - 2026-10-20 12:34 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
@@ -10,7 +10,7 @@ Threshold: 250 (ELIGIBLE >= 250)
 | 4 | Amaan Pathan | @amaan9737 | YES | 0 | 1 | 0 | 1 | 0 | 0 | **80** | BELOW |
 | 5 | Ankit raj | @ankitra-j | YES | 0 | 0 | 1 | 1 | 0 | 0 | **80** | BELOW |
 | 6 | Adeep AG | @adeep13 | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
-| 7 | ANNESTIO PIETY CASTANHA | @apcetc | NO | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
+| 7 | ANNESTIO PIETY CASTANHA | @apcetc | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
 | 8 | Revand Pradeep | @revx5 | YES | 1 | 0 | 0 | 0 | 0 | 0 | **70** | BELOW |
 | 9 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |
 | 10 | Vaibhav Santosh Tiwari | @orignalbox | YES | 0 | 0 | 0 | 1 | 0 | 0 | **40** | BELOW |

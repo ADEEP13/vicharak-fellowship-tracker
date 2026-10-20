@@ -81,6 +81,9 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 - `allocations/` - auto-made marksheets. Do not edit, robot overwrites them.
 - `scripts/update_scores.py` - robot brain. Run `python scripts/update_scores.py` to test locally.
 - `fellowship_scores.pdf` - auto-made PDF of all scores.
+- `docs/JOIN.md` - how to join (purchase proof = first PR).
+- `docs/FORKS.md` - why your PR may conflict, and how to fix it.
+- `docs/PROJECTS.md` - already-accepted projects + upstream examples. **Check this before submitting a Project.**
 
 ## For Admin (me)
 
@@ -90,7 +93,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-20 06:28 UTC - Threshold 250 - 11/69 with points_
+_Updated 2026-10-20 12:34 UTC - Threshold 250 - 11/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
@@ -100,7 +103,7 @@ _Updated 2026-10-20 06:28 UTC - Threshold 250 - 11/69 with points_
 | 4 | Amaan Pathan | @amaan9737 | YES | **80** | BELOW |
 | 5 | Ankit raj | @ankitra-j | YES | **80** | BELOW |
 | 6 | Adeep AG | @adeep13 | YES | **70** | BELOW |
-| 7 | ANNESTIO PIETY CASTANHA | @apcetc | NO | **70** | BELOW |
+| 7 | ANNESTIO PIETY CASTANHA | @apcetc | YES | **70** | BELOW |
 | 8 | Revand Pradeep | @revx5 | YES | **70** | BELOW |
 | 9 | Harshit Kumar Sharma | @harshit2387 | YES | **40** | BELOW |
 | 10 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |

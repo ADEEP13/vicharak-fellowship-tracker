@@ -1,0 +1,62 @@
+name: projects-index
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'submissions/**'
+      - 'fellows.csv'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SCORE_PAT || github.token }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Refresh accepted-projects list in docs/PROJECTS.md
+        run: |
+          python - <<'EOF'
+          import json, re
+          from pathlib import Path
+          idx = json.loads(Path("submissions/INDEX.json").read_text(encoding="utf-8"))
+          rows = []
+          for name, items in idx.items():
+              for i in items:
+                  if i.get("type") == "Project":
+                      rows.append((name, i.get("title",""), i.get("link","")))
+          rows.sort(key=lambda r: (r[0].lower(), r[1].lower()))
+          lines = ["| Fellow | Project | Link |", "|---|---|---|"]
+          for n, t, l in rows:
+              lines.append(f"| {n} | {t} | {l} |")
+          block = "\n".join(lines)
+          p = Path("docs/PROJECTS.md")
+          txt = p.read_text(encoding="utf-8")
+          new = re.sub(r"(## 1\. Projects already accepted in this program \(\d+\)\n\n)\|.*?\n\n",
+                       lambda m: m.group(1) + block + "\n\n", txt, flags=re.DOTALL)
+          new = re.sub(r"## 1\. Projects already accepted in this program \(\d+\)",
+                       f"## 1. Projects already accepted in this program ({len(rows)})", new)
+          if new != txt:
+              p.write_text(new, encoding="utf-8")
+              print("PROJECTS.md updated")
+          else:
+              print("PROJECTS.md already current")
+          EOF
+      - name: Commit back
+        if: always()
+        run: |
+          git config user.name "fellowship-bot"
+          git config user.email "bot@vicharak.in"
+          git add docs/PROJECTS.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh accepted-projects list [skip ci]"
+            git push
+          else
+            echo "No changes."
+          fi
