@@ -11,6 +11,21 @@
 4. One submission = one JSON file = one PR (easier to accept/reject). Do not bundle multiple links in one file.
 5. If maintainer merges, points auto-allocate. If closed, no points.
 
+## Rules that fail CI (read before pushing)
+
+- **Your PR must add EXACTLY ONE new file** under `submissions/`. The `file-guard` check enforces this.
+- **The filename MUST end in `.json`.** The scorer only reads `submissions/*.json`. A file named
+  `..._2026_10_15` (no extension) is silently ignored and you get **0 points with no error**.
+- **Do NOT run the scorer locally** (`python scripts/update_scores.py`). It rewrites `README.md`,
+  `SCORES.md`, `allocations/`, `fellowship_scores.pdf` and `submissions/INDEX.*`. If you commit
+  those, your PR conflicts with `main` and CI fails. They are bot-owned — the bot regenerates
+  them automatically after merge.
+- **Do NOT edit or delete an existing submission.** Merged submissions are permanent records.
+- Never touch `points.json`, `fellows.csv`, `scripts/`, `.github/`, `SCORES.md`, `README.md`
+  or `allocations/`.
+
+If your PR shows a conflict or a `file-guard` failure, see [`docs/FORKS.md`](../docs/FORKS.md).
+
 ## Single-name listing (auto-generated)
 - [`INDEX.md`](INDEX.md) — all accepted submissions grouped under a single fellow name (`## Name - N submission(s), P pts` + bullet per link). Start here to browse.
 - [`INDEX.json`](INDEX.json) — same data, machine-readable (`{ "Fellow Name": [{type, points, title, link, date, file}] }`).

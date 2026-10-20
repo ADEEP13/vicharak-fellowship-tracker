@@ -6,11 +6,17 @@ First PR from any fellow must be `[PurchaseProof] Your Name — board/invoice im
 
 **Checklist (maintainer merges = accept = points):**
 - [ ] Added ONE file: `submissions/<Name>_<Type>_<YYYY-MM-DD>.json` (copied from TEMPLATE.json)
+- [ ] Filename ends in `.json` (a file without it is invisible to the scorer → 0 points, no error)
+- [ ] This PR touches NOTHING else — no `README.md`, `SCORES.md`, `allocations/`, `INDEX.*`, PDF.
+      Do not run `python scripts/update_scores.py` locally; the bot regenerates those after merge.
+- [ ] Did not edit or delete an already-merged submission
 - [ ] `fellow` exactly matches a name in `fellows.csv`
 - [ ] `github` is your GitHub username/URL and maps to that fellow (see `github_map.json`; admin fixes via `github_overrides.json`)
 - [ ] `type` matches PR prefix
 - [ ] `link` starts with http(s):// and is public/openable
 - [ ] `date` is YYYY-MM-DD
+
+> Seeing a conflict or a red `file-guard` check? Read [`docs/FORKS.md`](../docs/FORKS.md).
 
 **Link:**
 Paste your Blog / LinkedIn / X / Project repo / Workshop link here:
