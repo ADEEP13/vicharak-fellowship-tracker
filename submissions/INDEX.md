@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-20 05:48 UTC
+# Submissions by Fellow - 2026-10-20 05:53 UTC
 
-_Total: 32 accepted submissions across 20/69 fellows_
+_Total: 33 accepted submissions across 20/69 fellows_
 
 ## Adeep AG - 1 submission(s), 0 pts
 - [PurchaseProof] Shrike Lite Order #4726 (2026-10-09) - https://drive.google.com/drive/u/0/folders/1h7LZbNftaQJHPZZ7_Fp8lw2rfFcRpzPM - 0 pts - `Adeep_AG_PurchaseProof_2026-10-09.json`
@@ -50,8 +50,9 @@ _Total: 32 accepted submissions across 20/69 fellows_
 ## Rudra Das - 1 submission(s), 0 pts
 - [PurchaseProof] Purchase proof of shrike lite, from Vicharak website, order number #4654 (2026-10-05) - https://drive.google.com/file/d/1MZLztG02_bqR_z3ZRcP0hvcpkmajiLCZ/view?usp=sharing - 0 pts - `Rudra_Das_PurchaseProof_2026-10-05.json`
 
-## Saksham Sud - 2 submission(s), 70 pts
+## Saksham Sud - 3 submission(s), 140 pts
 - [Project] ShrikeFi BLE find-my-board tag (iBeacon + Find Me + last-seen map) (2026-10-06) - https://github.com/Geneticscrol/shrikefi-ble-tag - 70 pts - `Saksham_Sud_Project_2026-10-06.json`
+- [Project] Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor) (2026-10-13) - https://github.com/Geneticscrol/perch - 70 pts - `Saksham_Sud_Project_2026-10-13.json`
 - [PurchaseProof] Shrike Lite + ShrikeFi purchase proof, Order #6325 (2026-10-05) - https://raw.githubusercontent.com/Geneticscrol/vicharak-fellowship-tracker/proof-assets/proofs/Saksham_Sud_proof.png - 0 pts - `Saksham_Sud_PurchaseProof_2026-10-05.json`
 
 ## Shreya Veni - 1 submission(s), 0 pts

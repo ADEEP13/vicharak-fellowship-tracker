@@ -197,6 +197,14 @@
       "file": "Saksham_Sud_Project_2026-10-06.json"
     },
     {
+      "type": "Project",
+      "points": 70,
+      "title": "Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor)",
+      "link": "https://github.com/Geneticscrol/perch",
+      "date": "2026-10-13",
+      "file": "Saksham_Sud_Project_2026-10-13.json"
+    },
+    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "Shrike Lite + ShrikeFi purchase proof, Order #6325",
