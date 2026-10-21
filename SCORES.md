@@ -1,4 +1,4 @@
-# Fellowship Scores - 2026-10-20 09:32 UTC
+# Fellowship Scores - 2026-10-21 03:50 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
@@ -59,7 +59,7 @@ Threshold: 250 (ELIGIBLE >= 250)
 | 53 | Pruthvi M | @pruthviagi | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 54 | Punya Malaiya Jain | @punyajain-cmd | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 55 | Rudra Das | @dengrao | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 56 | Rujul Rajeev Rumale | @rujul-rumale | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 56 | Rujul Rajeev Rumale | @rujul-rumale | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 57 | S Vaishnavi | @vaishnavis1603-blip | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 58 | Sachidananda Mallick | @sachin1724 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 59 | Shashikant | @shashikant70086 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |

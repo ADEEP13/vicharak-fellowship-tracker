@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-20 09:32 UTC
+# Submissions by Fellow - 2026-10-21 03:50 UTC
 
-_Total: 36 accepted submissions across 20/69 fellows_
+_Total: 37 accepted submissions across 21/69 fellows_
 
 ## Adeep AG - 2 submission(s), 70 pts
 - [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
@@ -52,6 +52,9 @@ _Total: 36 accepted submissions across 20/69 fellows_
 
 ## Rudra Das - 1 submission(s), 0 pts
 - [PurchaseProof] Purchase proof of shrike lite, from Vicharak website, order number #4654 (2026-10-05) - https://drive.google.com/file/d/1MZLztG02_bqR_z3ZRcP0hvcpkmajiLCZ/view?usp=sharing - 0 pts - `Rudra_Das_PurchaseProof_2026-10-05.json`
+
+## Rujul Rajeev Rumale - 1 submission(s), 0 pts
+- [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-20) - https://drive.google.com/drive/folders/14tWHuu1n-5U8KMOqeQ7zrWIszjdGWbXe?usp=sharing - 0 pts - `Rujul_Rajeev_Rumale_PurchaseProof_2026-10-20.json`
 
 ## Saksham Sud - 3 submission(s), 140 pts
 - [Project] ShrikeFi BLE find-my-board tag (iBeacon + Find Me + last-seen map) (2026-10-06) - https://github.com/Geneticscrol/shrikefi-ble-tag - 70 pts - `Saksham_Sud_Project_2026-10-06.json`
