@@ -94,7 +94,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-21 03:50 UTC - Threshold 250 - 11/69 with points_
+_Updated 2026-10-22 09:25 UTC - Threshold 250 - 12/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
@@ -107,17 +107,17 @@ _Updated 2026-10-21 03:50 UTC - Threshold 250 - 11/69 with points_
 | 7 | Revand Pradeep | @revx5 | YES | **70** | BELOW |
 | 8 | Harshit Kumar Sharma | @harshit2387 | YES | **40** | BELOW |
 | 9 | Nathan Mathews | @deagle2 | YES | **40** | BELOW |
-| 10 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
-| 11 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
-| 12 | Aaditya Goswami | @aadii02 | NO | **0** | BELOW |
-| 13 | Abhishek Jain | @abhishek261007 | NO | **0** | BELOW |
-| 14 | Aditya Nukala | @adikp98 | YES | **0** | BELOW |
-| 15 | Aditya Reddy | @aditya-1020 | NO | **0** | BELOW |
-| 16 | Aman Sharma | @captain1508 | NO | **0** | BELOW |
-| 17 | Amrutha M | @amrutham-24 | NO | **0** | BELOW |
-| 18 | Anandu Rajan | @anandurajan1209 | NO | **0** | BELOW |
-| 19 | Anusheel Singh | @anusheelsingh12 | NO | **0** | BELOW |
-| 20 | Arafat Babar | @arafatbabar | NO | **0** | BELOW |
+| 10 | Rujul Rajeev Rumale | @rujul-rumale | YES | **40** | BELOW |
+| 11 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
+| 12 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
+| 13 | Aaditya Goswami | @aadii02 | NO | **0** | BELOW |
+| 14 | Abhishek Jain | @abhishek261007 | NO | **0** | BELOW |
+| 15 | Aditya Nukala | @adikp98 | YES | **0** | BELOW |
+| 16 | Aditya Reddy | @aditya-1020 | NO | **0** | BELOW |
+| 17 | Aman Sharma | @captain1508 | NO | **0** | BELOW |
+| 18 | Amrutha M | @amrutham-24 | NO | **0** | BELOW |
+| 19 | Anandu Rajan | @anandurajan1209 | NO | **0** | BELOW |
+| 20 | Anusheel Singh | @anusheelsingh12 | NO | **0** | BELOW |
 
 _Showing top 20 of 69 - full list in [SCORES.md](SCORES.md)_
 <!-- SCORES_END -->
