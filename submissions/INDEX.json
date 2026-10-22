@@ -119,6 +119,14 @@
   ],
   "Harshit Kumar Sharma": [
     {
+      "type": "Blog",
+      "points": 40,
+      "title": "My Journey with Vicharak: Exploring Reconfigurable Computing",
+      "link": "https://docs.google.com/document/d/1eVXTWC7kz1-T-7XDU8W0iMRcp34p7p_lXSpCNLVltkw/edit?usp=sharing",
+      "date": "2026-10-15",
+      "file": "Harshit Kumar Sharma_Blog_2026-10-15.json"
+    },
+    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "Purchase Proof Orders #4989 and #5785",

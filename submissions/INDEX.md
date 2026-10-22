@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-22 09:25 UTC
+# Submissions by Fellow - 2026-10-22 09:26 UTC
 
-_Total: 39 accepted submissions across 21/69 fellows_
+_Total: 40 accepted submissions across 21/69 fellows_
 
 ## Adeep AG - 2 submission(s), 70 pts
 - [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
@@ -29,7 +29,8 @@ _Total: 39 accepted submissions across 21/69 fellows_
 ## Hardik Kumar Sinha - 1 submission(s), 0 pts
 - [PurchaseProof] ShrikeFi PurchaseProof, Order #6505 (2026-10-07) - https://drive.google.com/file/d/17PDVtNNHAzT4F4VuFTIq53OeErCilu2b/view?usp=sharing - 0 pts - `Hardik_Kumar_Sinha_PurchaseProof_2026-10-07.json`
 
-## Harshit Kumar Sharma - 2 submission(s), 40 pts
+## Harshit Kumar Sharma - 3 submission(s), 80 pts
+- [Blog] My Journey with Vicharak: Exploring Reconfigurable Computing (2026-10-15) - https://docs.google.com/document/d/1eVXTWC7kz1-T-7XDU8W0iMRcp34p7p_lXSpCNLVltkw/edit?usp=sharing - 40 pts - `Harshit Kumar Sharma_Blog_2026-10-15.json`
 - [PurchaseProof] Purchase Proof Orders #4989 and #5785 (2026-10-04) - https://docs.google.com/document/d/1xIFamwjXaCcTN_OIHSBaBIrnRZicWH-KDGStICfz7Ws/edit?usp=sharing - 0 pts - `Harshit_Kumar_Sharma_PurchaseProof_2026-10-04.json`
 - [X] Vicharak Fellowship Kickoff Post (2026-10-08) - https://docs.google.com/document/d/1wtRL2N-kqDj2T9i16jaijWDE3giKfRZs6k4EvHBKFEA/edit?usp=sharing - 40 pts - `Harshit_Kumar_Sharma_X_2026-10-08.json`
 
