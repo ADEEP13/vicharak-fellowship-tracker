@@ -102,12 +102,12 @@ _Updated 2026-10-22 09:25 UTC - Threshold 250 - 12/69 with points_
 | 2 | Saksham Sud | @geneticscrol | YES | **140** | BELOW |
 | 3 | Amaan Pathan | @amaan9737 | YES | **80** | BELOW |
 | 4 | Ankit raj | @ankitra-j | YES | **80** | BELOW |
-| 5 | Adeep AG | @adeep13 | YES | **70** | BELOW |
-| 6 | ANNESTIO PIETY CASTANHA | @apcetc | YES | **70** | BELOW |
-| 7 | Revand Pradeep | @revx5 | YES | **70** | BELOW |
-| 8 | Harshit Kumar Sharma | @harshit2387 | YES | **40** | BELOW |
-| 9 | Nathan Mathews | @deagle2 | YES | **40** | BELOW |
-| 10 | Rujul Rajeev Rumale | @rujul-rumale | YES | **40** | BELOW |
+| 5 | Rujul Rajeev Rumale | @rujul-rumale | YES | **80** | BELOW |
+| 6 | Adeep AG | @adeep13 | YES | **70** | BELOW |
+| 7 | ANNESTIO PIETY CASTANHA | @apcetc | YES | **70** | BELOW |
+| 8 | Revand Pradeep | @revx5 | YES | **70** | BELOW |
+| 9 | Harshit Kumar Sharma | @harshit2387 | YES | **40** | BELOW |
+| 10 | Nathan Mathews | @deagle2 | YES | **40** | BELOW |
 | 11 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
 | 12 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
 | 13 | Aaditya Goswami | @aadii02 | NO | **0** | BELOW |

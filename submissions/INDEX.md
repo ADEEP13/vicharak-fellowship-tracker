@@ -1,6 +1,6 @@
 # Submissions by Fellow - 2026-10-22 09:25 UTC
 
-_Total: 38 accepted submissions across 21/69 fellows_
+_Total: 39 accepted submissions across 21/69 fellows_
 
 ## Adeep AG - 2 submission(s), 70 pts
 - [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
@@ -53,7 +53,8 @@ _Total: 38 accepted submissions across 21/69 fellows_
 ## Rudra Das - 1 submission(s), 0 pts
 - [PurchaseProof] Purchase proof of shrike lite, from Vicharak website, order number #4654 (2026-10-05) - https://drive.google.com/file/d/1MZLztG02_bqR_z3ZRcP0hvcpkmajiLCZ/view?usp=sharing - 0 pts - `Rudra_Das_PurchaseProof_2026-10-05.json`
 
-## Rujul Rajeev Rumale - 2 submission(s), 40 pts
+## Rujul Rajeev Rumale - 3 submission(s), 80 pts
+- [Linkedin] Linkedin Fellowship Announcement draft post 1 (2026-10-21) - https://docs.google.com/document/d/1fMqggaOhPgZnX6EvHaZLTOqjfvpdaqLAtQBr_m7m3y0/edit?usp=sharing - 40 pts - `Rujul_Rajeev_Rumale_Linkedin_2026-10-21.json`
 - [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-20) - https://drive.google.com/drive/folders/14tWHuu1n-5U8KMOqeQ7zrWIszjdGWbXe?usp=sharing - 0 pts - `Rujul_Rajeev_Rumale_PurchaseProof_2026-10-20.json`
 - [X] X Fellowship Announcement draft First post (2026-10-21) - https://docs.google.com/document/d/1Rvc4D2nGtCmJ6Kf41bTGzvQwnRWxOxn54YWQSsxgKlQ/edit?usp=sharing - 40 pts - `Rujul_Rajeev_Rumale_X_2026-10-21.json`
 
