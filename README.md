@@ -94,7 +94,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-22 09:26 UTC - Threshold 250 - 12/69 with points_
+_Updated 2026-10-23 09:38 UTC - Threshold 250 - 13/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
@@ -108,16 +108,16 @@ _Updated 2026-10-22 09:26 UTC - Threshold 250 - 12/69 with points_
 | 8 | ANNESTIO PIETY CASTANHA | @apcetc | YES | **70** | BELOW |
 | 9 | Revand Pradeep | @revx5 | YES | **70** | BELOW |
 | 10 | Nathan Mathews | @deagle2 | YES | **40** | BELOW |
-| 11 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
-| 12 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
-| 13 | Aaditya Goswami | @aadii02 | NO | **0** | BELOW |
-| 14 | Abhishek Jain | @abhishek261007 | NO | **0** | BELOW |
-| 15 | Aditya Nukala | @adikp98 | YES | **0** | BELOW |
-| 16 | Aditya Reddy | @aditya-1020 | NO | **0** | BELOW |
-| 17 | Aman Sharma | @captain1508 | NO | **0** | BELOW |
-| 18 | Amrutha M | @amrutham-24 | NO | **0** | BELOW |
-| 19 | Anandu Rajan | @anandurajan1209 | NO | **0** | BELOW |
-| 20 | Anusheel Singh | @anusheelsingh12 | NO | **0** | BELOW |
+| 11 | Shreya Veni | @concatenate-this | YES | **40** | BELOW |
+| 12 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
+| 13 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
+| 14 | Aaditya Goswami | @aadii02 | NO | **0** | BELOW |
+| 15 | Abhishek Jain | @abhishek261007 | NO | **0** | BELOW |
+| 16 | Aditya Nukala | @adikp98 | YES | **0** | BELOW |
+| 17 | Aditya Reddy | @aditya-1020 | NO | **0** | BELOW |
+| 18 | Aman Sharma | @captain1508 | NO | **0** | BELOW |
+| 19 | Amrutha M | @amrutham-24 | NO | **0** | BELOW |
+| 20 | Anandu Rajan | @anandurajan1209 | NO | **0** | BELOW |
 
 _Showing top 20 of 69 - full list in [SCORES.md](SCORES.md)_
 <!-- SCORES_END -->

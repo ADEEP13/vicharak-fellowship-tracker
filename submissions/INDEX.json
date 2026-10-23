@@ -273,6 +273,14 @@
   ],
   "Shreya Veni": [
     {
+      "type": "Blog",
+      "points": 40,
+      "title": "Why is there an FPGA sitting next to my ESP32?",
+      "link": "https://medium.com/@shreyadoesstuff/why-is-there-an-fpga-sitting-next-to-my-esp32-64a1f7263e43",
+      "date": "2026-10-22",
+      "file": "Shreya_Veni_Blog_2026-10-22.json"
+    },
+    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "ShrikeFi purchase proof",

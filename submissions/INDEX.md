@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-22 09:26 UTC
+# Submissions by Fellow - 2026-10-23 09:38 UTC
 
-_Total: 40 accepted submissions across 21/69 fellows_
+_Total: 41 accepted submissions across 21/69 fellows_
 
 ## Adeep AG - 2 submission(s), 70 pts
 - [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
@@ -64,7 +64,8 @@ _Total: 40 accepted submissions across 21/69 fellows_
 - [Project] Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor) (2026-10-13) - https://github.com/Geneticscrol/perch - 70 pts - `Saksham_Sud_Project_2026-10-13.json`
 - [PurchaseProof] Shrike Lite + ShrikeFi purchase proof, Order #6325 (2026-10-05) - https://raw.githubusercontent.com/Geneticscrol/vicharak-fellowship-tracker/proof-assets/proofs/Saksham_Sud_proof.png - 0 pts - `Saksham_Sud_PurchaseProof_2026-10-05.json`
 
-## Shreya Veni - 1 submission(s), 0 pts
+## Shreya Veni - 2 submission(s), 40 pts
+- [Blog] Why is there an FPGA sitting next to my ESP32? (2026-10-22) - https://medium.com/@shreyadoesstuff/why-is-there-an-fpga-sitting-next-to-my-esp32-64a1f7263e43 - 40 pts - `Shreya_Veni_Blog_2026-10-22.json`
 - [PurchaseProof] ShrikeFi purchase proof (2026-10-03) - https://github.com/user-attachments/assets/9132479f-a3f6-4c4f-aa98-1484a388c49d - 0 pts - `Shreya_Veni_PurchaseProof_2026-10-03.json`
 
 ## Sumit Maheshwari - 1 submission(s), 0 pts
