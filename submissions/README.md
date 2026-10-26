@@ -2,13 +2,19 @@
 
 1. Copy `TEMPLATE.json` to a new file named: `<Your-Full-Name-With-Underscores>_<Type>_<YYYY-MM-DD>.json`
    - Name must match `fellows.csv` (case-insensitive), e.g. `Arjun_A`.
-   - Type must be one of: PurchaseProof, Blog, Linkedin, X, Project, Workshop, Documentation contribution, YT longform Video, YT shorts, Insta reel, Fellowship Referral, Bug.
+   - Type must be one of: PurchaseProof, Blog, Linkedin, X, Project, Workshop, Documentation contribution, YT longform Video, YT shorts, Insta reel, Fellowship Referral, Bug, PostedLink.
    - **First PR must be PurchaseProof**: your dev-kit proof (board photo / invoice image link). Title it `[PurchaseProof] Your Name`. Until accepted, Kit shows NO in the score block.
+   - **Social media types (Blog, Linkedin, X, YT longform Video, YT shorts, Insta reel) follow a two-stage flow:**
+     1. **Draft stage**: submit `link` = your Google Doc draft. Admin reviews content, merges → **0 points** (content approved, pending post).
+     2. **Posted link stage**: after posting on the platform, submit a new PR with `type: "PostedLink"`, `for_type: "Blog"` (or your type), and `link` = the published URL. The bot auto-verifies the platform and auto-merges → **points given**.
+   - Non-social types (Project, Workshop, Documentation contribution, Bug, Fellowship Referral, PurchaseProof) work as before: one PR, admin merges, points given.
 2. Fill all fields. Link must start with http:// or https://.
    - `github`: your GitHub username/URL (the account opening the PR). It must map to your `fellow` name via `fellows.csv` or `github_overrides.json` — points always go to the `fellow` name, never to the raw account. A mismatch fails CI.
+   - `for_type`: only for `PostedLink` type — set it to the original social type (Blog, Linkedin, X, YT longform Video, YT shorts, Insta reel).
 3. Open a Pull Request. PR title format (important):
-   `[PurchaseProof]` (first PR only) `[Blog]` `[Linkedin]` `[X]` `[Project]` `[Workshop]` `[Documentation contribution]` `[YT longform Video]` `[YT shorts]` `[Insta reel]` `[Fellowship Referral]` `[Bug]`
+   `[PurchaseProof]` (first PR only) `[Blog]` `[Linkedin]` `[X]` `[Project]` `[Workshop]` `[Documentation contribution]` `[YT longform Video]` `[YT shorts]` `[Insta reel]` `[Fellowship Referral]` `[Bug]` `[PostedLink]`
 4. One submission = one JSON file = one PR (easier to accept/reject). Do not bundle multiple links in one file.
+   - For PostedLink: your PR must add exactly ONE new file. The bot auto-verifies the platform and auto-merges if valid.
 5. If maintainer merges, points auto-allocate. If closed, no points.
 
 ## Rules that fail CI (read before pushing)
@@ -20,7 +26,7 @@
   `SCORES.md`, `allocations/`, `fellowship_scores.pdf` and `submissions/INDEX.*`. If you commit
   those, your PR conflicts with `main` and CI fails. They are bot-owned — the bot regenerates
   them automatically after merge.
-- **Do NOT edit or delete an existing submission.** Merged submissions are permanent records.
+- **Do NOT edit or delete an already-merged submission.** Merged submissions are permanent records.
 - Never touch `points.json`, `fellows.csv`, `scripts/`, `.github/`, `SCORES.md`, `README.md`
   or `allocations/`.
 

@@ -4,5 +4,6 @@
   "type": "Blog",
   "title": "Why is there an FPGA sitting next to my ESP32?",
   "link": "https://medium.com/@shreyadoesstuff/why-is-there-an-fpga-sitting-next-to-my-esp32-64a1f7263e43",
-  "date": "2026-10-22"
+  "date": "2026-10-22",
+  "grandfathered": true
 }

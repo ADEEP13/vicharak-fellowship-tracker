@@ -4,5 +4,6 @@
   "type": "Project",
   "title": "Shrike-Fi Three-Phase SPWM Inverter",
   "link": "https://github.com/Amaan9737/shrike-fi-three-phase-spwm-inverter",
-  "date": "2026-10-20"
+  "date": "2026-10-20",
+  "grandfathered": true
 }

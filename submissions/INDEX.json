@@ -6,7 +6,9 @@
       "title": "Geto Web IDE : For Shrike Series board(RP2040 & RP2350)",
       "link": "https://github.com/ADEEP13/IDE",
       "date": "2026-10-17",
-      "file": "Adeep_AG_Project_2026-10-17.json"
+      "file": "Adeep_AG_Project_2026-10-17.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -14,7 +16,9 @@
       "title": "Shrike Lite Order #4726",
       "link": "https://drive.google.com/drive/u/0/folders/1h7LZbNftaQJHPZZ7_Fp8lw2rfFcRpzPM",
       "date": "2026-10-09",
-      "file": "Adeep_AG_PurchaseProof_2026-10-09.json"
+      "file": "Adeep_AG_PurchaseProof_2026-10-09.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Aditya Nukala": [
@@ -24,7 +28,9 @@
       "title": "Vicharak Fellowship kit Purchase Proof",
       "link": "https://drive.google.com/drive/folders/1wtj7Pgt6J6he5JOblPkfnwpEVLV-jZXD?usp=sharing",
       "date": "2026-10-14",
-      "file": "Aditya_Nukala_PurchaseProof_2026-10-14.json"
+      "file": "Aditya_Nukala_PurchaseProof_2026-10-14.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Amaan Pathan": [
@@ -34,7 +40,9 @@
       "title": "Vicharak Campus Fellowship Kickoff",
       "link": "https://www.linkedin.com/posts/amaan-pathan-127bb0263_vicharak-embeddedsystems-fpga-share-7514711558405521408-DsDl/",
       "date": "2026-10-10",
-      "file": "Amaan_Pathan_Linkedin_2026-10-10.json"
+      "file": "Amaan_Pathan_Linkedin_2026-10-10.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "Project",
@@ -42,7 +50,9 @@
       "title": "Shrike-Fi Three-Phase SPWM Inverter",
       "link": "https://github.com/Amaan9737/shrike-fi-three-phase-spwm-inverter",
       "date": "2026-10-20",
-      "file": "Amaan_Pathan_Project_2026-10-20.json"
+      "file": "Amaan_Pathan_Project_2026-10-20.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -50,7 +60,9 @@
       "title": "PurchaseProof_pack of 2 ShrikeFi_Amaan Pathan",
       "link": "https://drive.google.com/file/d/1UEn-QpIAYLxYL8V42cCf-1WJR7T8QCbP/view?usp=sharing",
       "date": "2026-10-08",
-      "file": "Amaan_Pathan_PurchaseProof_2026-10-08.json"
+      "file": "Amaan_Pathan_PurchaseProof_2026-10-08.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "X",
@@ -58,7 +70,9 @@
       "title": "Vicharak Campus Fellowship Kickoff",
       "link": "https://x.com/AstroAmaan/status/2108955198274379963",
       "date": "2026-10-10",
-      "file": "Amaan_Pathan_X_2026-10-10.json"
+      "file": "Amaan_Pathan_X_2026-10-10.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Ankit raj": [
@@ -68,7 +82,9 @@
       "title": "Shrike-Scope: Building a USB Oscilloscope with the Vicharak Shrike-Fi",
       "link": "https://docs.google.com/document/d/1LPNTUWZky4v0anmgryq7N7yoyT6Yg6AC/edit?usp=sharing&ouid=109376149344711751562&rtpof=true&sd=true",
       "date": "2026-10-15",
-      "file": "Ankit_raj_Blog_2026-10-15.json"
+      "file": "Ankit_raj_Blog_2026-10-15.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -76,7 +92,9 @@
       "title": "Vicharak Fellowship Kit Purchase Proof",
       "link": "https://drive.google.com/drive/folders/1ULPYCRh1iDjAZz93mgKhIKx7e3LOg7Sx",
       "date": "2026-10-13",
-      "file": "Ankit_raj_PurchaseProof_2026-10-13.json"
+      "file": "Ankit_raj_PurchaseProof_2026-10-13.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "X",
@@ -84,7 +102,9 @@
       "title": "Shrike-Scope: laptop oscilloscope on Vicharak Shrike-Fi",
       "link": "https://docs.google.com/document/d/1HdydgKhk10kyXjXO52IPTpVtqnq3nk1D1awjBy11p0s/edit?usp=sharing",
       "date": "2026-10-15",
-      "file": "Ankit_raj_X_2026-10-15.json"
+      "file": "Ankit_raj_X_2026-10-15.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "ANNESTIO PIETY CASTANHA": [
@@ -94,7 +114,9 @@
       "title": "ShrikeFi 16-bit Multicycle CPU",
       "link": "https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1",
       "date": "2026-10-12",
-      "file": "ANNESTIO_PIETY_CASTANHA_Project_2026-10-12.json"
+      "file": "ANNESTIO_PIETY_CASTANHA_Project_2026-10-12.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -102,7 +124,9 @@
       "title": "Vicharak Kit Purchase Proof",
       "link": "https://raw.githubusercontent.com/apcetc/Vicharak_Campus_Fellowship_APC-/main/submissions/purchase_proof/INVOICE_APC.png",
       "date": "2026-10-03",
-      "file": "ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json"
+      "file": "ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Dev Kumar Singh": [
@@ -112,7 +136,9 @@
       "title": "Vicharak Kit Purchase Proof",
       "link": "https://drive.google.com/drive/folders/1_kEV9b1up5vsGaKk3_d6CEBD9v6QvkF5?usp=sharing",
       "date": "2026-10-23",
-      "file": "Dev_Kumar_Singh_PurchaseProof_2026-10-23.json"
+      "file": "Dev_Kumar_Singh_PurchaseProof_2026-10-23.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Gantla Venkata Sravan": [
@@ -122,7 +148,9 @@
       "title": "Purchase Proof",
       "link": "https://x.com/Sravan271828/status/2103878332039549257/photo/4",
       "date": "2026-10-03",
-      "file": "Gantla_Venkata_Sravan_PurchaseProof_2026-10-03.json"
+      "file": "Gantla_Venkata_Sravan_PurchaseProof_2026-10-03.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Hardik Kumar Sinha": [
@@ -132,7 +160,9 @@
       "title": "ShrikeFi PurchaseProof, Order #6505",
       "link": "https://drive.google.com/file/d/17PDVtNNHAzT4F4VuFTIq53OeErCilu2b/view?usp=sharing",
       "date": "2026-10-07",
-      "file": "Hardik_Kumar_Sinha_PurchaseProof_2026-10-07.json"
+      "file": "Hardik_Kumar_Sinha_PurchaseProof_2026-10-07.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Harshit Kumar Sharma": [
@@ -142,7 +172,9 @@
       "title": "My Journey with Vicharak: Exploring Reconfigurable Computing",
       "link": "https://docs.google.com/document/d/1eVXTWC7kz1-T-7XDU8W0iMRcp34p7p_lXSpCNLVltkw/edit?usp=sharing",
       "date": "2026-10-15",
-      "file": "Harshit Kumar Sharma_Blog_2026-10-15.json"
+      "file": "Harshit Kumar Sharma_Blog_2026-10-15.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -150,7 +182,9 @@
       "title": "Purchase Proof Orders #4989 and #5785",
       "link": "https://docs.google.com/document/d/1xIFamwjXaCcTN_OIHSBaBIrnRZicWH-KDGStICfz7Ws/edit?usp=sharing",
       "date": "2026-10-04",
-      "file": "Harshit_Kumar_Sharma_PurchaseProof_2026-10-04.json"
+      "file": "Harshit_Kumar_Sharma_PurchaseProof_2026-10-04.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "X",
@@ -158,7 +192,9 @@
       "title": "Vicharak Fellowship Kickoff Post",
       "link": "https://docs.google.com/document/d/1wtRL2N-kqDj2T9i16jaijWDE3giKfRZs6k4EvHBKFEA/edit?usp=sharing",
       "date": "2026-10-08",
-      "file": "Harshit_Kumar_Sharma_X_2026-10-08.json"
+      "file": "Harshit_Kumar_Sharma_X_2026-10-08.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "MAJJI BHANU PRAKASH": [
@@ -168,7 +204,9 @@
       "title": "PurchaseProof",
       "link": "https://drive.google.com/file/d/1CDshSAe84N0fkmZvA8rQyvRSKdjuD4up/view?usp=drivesdk",
       "date": "2026-10-07",
-      "file": "MAJJI_BHANU_PRAKASH_Purchaseproof_2026-10-09.json"
+      "file": "MAJJI_BHANU_PRAKASH_Purchaseproof_2026-10-09.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Nathan Mathews": [
@@ -178,7 +216,9 @@
       "title": "PRNGs on a Shrike-Lite Devboard",
       "link": "https://docs.google.com/document/d/1MP8t0d4zSxcjxD-0ID6zmkhGox1zfDe8YlOHhGU3rw4/edit?usp=sharing",
       "date": "2026-10-09",
-      "file": "Nathan_Mathews_Blog_2026-10-09.json"
+      "file": "Nathan_Mathews_Blog_2026-10-09.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -186,7 +226,9 @@
       "title": "Purchase proof - Shrike Lite, Order #3967",
       "link": "https://drive.google.com/file/d/146DsJhh7G3UF64aGUQF1zYtZObXwhnUl/view",
       "date": "2026-10-03",
-      "file": "Nathan_Mathews_PurchaseProof_2026-10-03.json"
+      "file": "Nathan_Mathews_PurchaseProof_2026-10-03.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Pradyumna Dalmia": [
@@ -196,7 +238,9 @@
       "title": "Purchase proof - Shrike Lite",
       "link": "https://drive.google.com/file/d/1sDcuwwf4JRTPqTiSljabapSxWne0qyIQ/view?usp=sharing",
       "date": "2026-01-01",
-      "file": "Pradyumna_Dalmia_PurchaseProof_2026-01-01.json"
+      "file": "Pradyumna_Dalmia_PurchaseProof_2026-01-01.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Pranav Dhole": [
@@ -206,7 +250,9 @@
       "title": "PurchaseProof",
       "link": "https://ibb.co/4vSJLtb",
       "date": "2026-10-7",
-      "file": "Pranav_Dhole_PurchaseProf_2026-10-7.json"
+      "file": "Pranav_Dhole_PurchaseProf_2026-10-7.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Revand Pradeep": [
@@ -216,7 +262,9 @@
       "title": "Shrike-Sentinel",
       "link": "https://docs.google.com/document/d/1DzsEX9RhsuA5Obxm0qkuIky-P2YCXNoWIiYl_c4sDtA/edit?usp=sharing",
       "date": "2026-10-15",
-      "file": "Revand_Pradeep_Project_2026-10-15.json"
+      "file": "Revand_Pradeep_Project_2026-10-15.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -224,7 +272,9 @@
       "title": "Vicharak Kit Purchase Proof",
       "link": "https://drive.google.com/drive/folders/18JQ_lGAOGAOYQ0ecBd2tAzkTKb5Qq7w3",
       "date": "2026-10-03",
-      "file": "RevandPradeep_PurchaseProof_2026-10-03.json"
+      "file": "RevandPradeep_PurchaseProof_2026-10-03.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Rudra Das": [
@@ -234,7 +284,9 @@
       "title": "Purchase proof of shrike lite, from Vicharak website, order number #4654",
       "link": "https://drive.google.com/file/d/1MZLztG02_bqR_z3ZRcP0hvcpkmajiLCZ/view?usp=sharing",
       "date": "2026-10-05",
-      "file": "Rudra_Das_PurchaseProof_2026-10-05.json"
+      "file": "Rudra_Das_PurchaseProof_2026-10-05.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Rujul Rajeev Rumale": [
@@ -244,7 +296,9 @@
       "title": "Linkedin Fellowship Announcement draft post 1",
       "link": "https://docs.google.com/document/d/1fMqggaOhPgZnX6EvHaZLTOqjfvpdaqLAtQBr_m7m3y0/edit?usp=sharing",
       "date": "2026-10-21",
-      "file": "Rujul_Rajeev_Rumale_Linkedin_2026-10-21.json"
+      "file": "Rujul_Rajeev_Rumale_Linkedin_2026-10-21.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -252,7 +306,9 @@
       "title": "Vicharak Kit Purchase Proof",
       "link": "https://drive.google.com/drive/folders/14tWHuu1n-5U8KMOqeQ7zrWIszjdGWbXe?usp=sharing",
       "date": "2026-10-20",
-      "file": "Rujul_Rajeev_Rumale_PurchaseProof_2026-10-20.json"
+      "file": "Rujul_Rajeev_Rumale_PurchaseProof_2026-10-20.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "X",
@@ -260,7 +316,9 @@
       "title": "X Fellowship Announcement draft First post",
       "link": "https://docs.google.com/document/d/1Rvc4D2nGtCmJ6Kf41bTGzvQwnRWxOxn54YWQSsxgKlQ/edit?usp=sharing",
       "date": "2026-10-21",
-      "file": "Rujul_Rajeev_Rumale_X_2026-10-21.json"
+      "file": "Rujul_Rajeev_Rumale_X_2026-10-21.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Saksham Sud": [
@@ -270,7 +328,9 @@
       "title": "ShrikeFi BLE find-my-board tag (iBeacon + Find Me + last-seen map)",
       "link": "https://github.com/Geneticscrol/shrikefi-ble-tag",
       "date": "2026-10-06",
-      "file": "Saksham_Sud_Project_2026-10-06.json"
+      "file": "Saksham_Sud_Project_2026-10-06.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "Project",
@@ -278,7 +338,9 @@
       "title": "Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor)",
       "link": "https://github.com/Geneticscrol/perch",
       "date": "2026-10-13",
-      "file": "Saksham_Sud_Project_2026-10-13.json"
+      "file": "Saksham_Sud_Project_2026-10-13.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -286,7 +348,9 @@
       "title": "Shrike Lite + ShrikeFi purchase proof, Order #6325",
       "link": "https://raw.githubusercontent.com/Geneticscrol/vicharak-fellowship-tracker/proof-assets/proofs/Saksham_Sud_proof.png",
       "date": "2026-10-05",
-      "file": "Saksham_Sud_PurchaseProof_2026-10-05.json"
+      "file": "Saksham_Sud_PurchaseProof_2026-10-05.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Shreya Veni": [
@@ -296,7 +360,9 @@
       "title": "Why is there an FPGA sitting next to my ESP32?",
       "link": "https://medium.com/@shreyadoesstuff/why-is-there-an-fpga-sitting-next-to-my-esp32-64a1f7263e43",
       "date": "2026-10-22",
-      "file": "Shreya_Veni_Blog_2026-10-22.json"
+      "file": "Shreya_Veni_Blog_2026-10-22.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -304,7 +370,9 @@
       "title": "ShrikeFi purchase proof",
       "link": "https://github.com/user-attachments/assets/9132479f-a3f6-4c4f-aa98-1484a388c49d",
       "date": "2026-10-03",
-      "file": "Shreya_Veni_PurchaseProof_2026-10-03.json"
+      "file": "Shreya_Veni_PurchaseProof_2026-10-03.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Sumit Maheshwari": [
@@ -314,7 +382,9 @@
       "title": "Just got a brand new development board from Vicharak",
       "link": "https://lnkd.in/p/gFtzT9YD",
       "date": "2026-10-06",
-      "file": "Sumit_Maheshwari_PurchaseProof_2026-10-06.json"
+      "file": "Sumit_Maheshwari_PurchaseProof_2026-10-06.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Vaibhav Santosh Tiwari": [
@@ -324,7 +394,9 @@
       "title": "Purchase proof - Shrike Lite, Order #6489",
       "link": "https://raw.githubusercontent.com/orignalbox/vicharak-fellowship-tracker/proof-assets/Vaibhav_Santosh_Tiwari_proof.png",
       "date": "2026-10-03",
-      "file": "Vaibhav_Santosh_Tiwari_PurchaseProof_2026-10-03.json"
+      "file": "Vaibhav_Santosh_Tiwari_PurchaseProof_2026-10-03.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "X",
@@ -332,7 +404,9 @@
       "title": "Vicharak Shrike Lite Unboxing & Packaging First Impressions",
       "link": "https://x.com/imnot_linear/status/2109241369109909789",
       "date": "2026-10-11",
-      "file": "Vaibhav_Santosh_Tiwari_X_2026-10-11.json"
+      "file": "Vaibhav_Santosh_Tiwari_X_2026-10-11.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "Veer Kishan Whabi": [
@@ -342,7 +416,9 @@
       "title": "Vicharak Kit Purchase Proof",
       "link": "https://drive.google.com/file/d/15P0vRGSMZeC6cAN4dE6t7xOi2WeBy2j3/view?usp=sharing",
       "date": "2026-10-07",
-      "file": "Veer_Kishan_Whabi_PurchaseProof_2026-10-07.json"
+      "file": "Veer_Kishan_Whabi_PurchaseProof_2026-10-07.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "X",
@@ -350,7 +426,9 @@
       "title": "Vicharak Fellowship Post-1",
       "link": "https://docs.google.com/document/d/1r94aN2mwUiMcJ8wOCVw6MSr8-jLUZ3vR-yG5TSVFDsM/edit?tab=t.0",
       "date": "2026-10-16",
-      "file": "Veer_Kishan_Whabi_X_2026-10-16.json"
+      "file": "Veer_Kishan_Whabi_X_2026-10-16.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ],
   "yatharth vishwa": [
@@ -360,7 +438,9 @@
       "title": "Joining Vicharak fellowship program",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7513978284406337537/",
       "date": "2026-10-08",
-      "file": "yatharth_vishwa_Linkedin_2026-10-08.json"
+      "file": "yatharth_vishwa_Linkedin_2026-10-08.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "Linkedin",
@@ -368,7 +448,9 @@
       "title": "ShrikeFi FPGA OTA demo",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7515066355432345600/",
       "date": "2026-10-13",
-      "file": "yatharth_vishwa_Linkedin_2026-10-08 copy.json"
+      "file": "yatharth_vishwa_Linkedin_2026-10-08 copy.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "Project",
@@ -376,7 +458,9 @@
       "title": "OTA support for ShrikeFi's FPGA",
       "link": "https://github.com/yatharthvishwa/ShrikeFi_FPGAOTA",
       "date": "2026-10-13",
-      "file": "yatharth_vishwa_Project_2026-10-13.json"
+      "file": "yatharth_vishwa_Project_2026-10-13.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "Project",
@@ -384,7 +468,9 @@
       "title": "ESP32-AndroidHID-Agent",
       "link": "https://github.com/yatharthvishwa/ESP32-AndroidHID-Agent",
       "date": "2026-10-23",
-      "file": "yatharth_vishwa_Project_2026-10-23.json"
+      "file": "yatharth_vishwa_Project_2026-10-23.json",
+      "for_type": "",
+      "grandfathered": true
     },
     {
       "type": "PurchaseProof",
@@ -392,7 +478,9 @@
       "title": "PurchaseProof",
       "link": "https://drive.google.com/file/d/16SCtfxldNgffWbm9B9NtIkQyjrcxq1QA/view?usp=sharing",
       "date": "2026-10-03",
-      "file": "yatharth_vishwa_PurchaseProof_2026-10-03.json"
+      "file": "yatharth_vishwa_PurchaseProof_2026-10-03.json",
+      "for_type": "",
+      "grandfathered": true
     }
   ]
 }

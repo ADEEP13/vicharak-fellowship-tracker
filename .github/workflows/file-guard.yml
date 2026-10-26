@@ -17,23 +17,25 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
           REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
           python3 - <<'EOF'
-          import json, os, subprocess, sys
+          import base64, json, os, subprocess, sys
           repo = os.environ["REPO"]
           pr = os.environ["PR_NUMBER"]
           pr_author = os.environ["PR_AUTHOR"].lower()
+          head_sha = os.environ["HEAD_SHA"]
           ADMIN = "nilangwork17"
 
           def gh(args):
-              p = subprocess.run(["gh", "api"] + args, capture_output=True, text=True)
+              p = subprocess.run(["gh", "api"] + args, capture_output=True, text=True, env={**os.environ, "GH_TOKEN": os.environ["GH_TOKEN"]})
               if p.returncode != 0:
                   print(f"ERROR: gh api failed: {p.stderr.strip()}")
                   sys.exit(1)
               return p.stdout
 
-          # Is the newest commit on this branch authored by a repo admin?
-          # If so, an admin has curated the branch -> strict single-file rule does not apply.
+          # Admin exemption: if the newest commit on the PR branch was authored by an admin,
+          # the admin has curated it - skip the strict single-file rule.
           commits = json.loads(gh([f"repos/{repo}/pulls/{pr}/commits"]) or "[]")
           last_author = ""
           if commits:
@@ -60,7 +62,21 @@ jobs:
                   print(f"  - {b}  ->  rename to {b}.json")
               sys.exit(1)
 
-          # 2. Anything that is not a brand-new submissions/*.json is not allowed
+          # 2. Students cannot grandfather their own work (admin-only flag)
+          for f in files:
+              if f.get("status") == "added" and f["filename"].endswith(".json") and f["filename"].startswith("submissions/"):
+                  cr = gh([f"repos/{repo}/contents/{f['filename']}?ref={head_sha}", "--jq", ".content"])
+                  if cr.returncode == 0:
+                      try:
+                          obj = json.loads(base64.b64decode(cr.stdout.strip()).decode("utf-8"))
+                          if obj.get("grandfathered"):
+                              print(f"FAIL: {f['filename']} has 'grandfathered: true' which is admin-only. "
+                                    "Students cannot self-grandfather their work.")
+                              sys.exit(1)
+                      except Exception:
+                          pass
+
+          # 3. Anything that is not a brand-new submissions/*.json is not allowed
           allowed = [f for f in files
                      if f.get("status") == "added"
                      and f["filename"].startswith("submissions/")

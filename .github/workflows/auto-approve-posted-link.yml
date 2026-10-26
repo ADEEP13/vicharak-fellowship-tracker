@@ -1,0 +1,179 @@
+name: auto-approve-posted-link
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'submissions/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  auto-approve:
+    # Only run in the canonical repo (not student forks).
+    if: github.event.repository.fork == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify posted link and auto-approve
+        env:
+          GH_TOKEN: ${{ secrets.SCORE_PAT || github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, re, subprocess, sys
+          from difflib import SequenceMatcher
+
+          repo = os.environ["REPO"]
+          pr = os.environ["PR_NUMBER"]
+          token = os.environ["GH_TOKEN"]
+          head_sha = os.environ["HEAD_SHA"]
+
+          def gh(args):
+              return subprocess.run(["gh", "api"] + args, capture_output=True, text=True,
+                                    env={**os.environ, "GH_TOKEN": token})
+
+          PLATFORMS = {
+              "Blog": ["medium.com"],
+              "Linkedin": ["linkedin.com"],
+              "X": ["x.com", "twitter.com"],
+              "YT longform Video": ["youtube.com", "youtu.be"],
+              "YT shorts": ["youtube.com", "youtu.be"],
+              "Insta reel": ["instagram.com", "youtube.com", "youtu.be"],
+          }
+          SOCIAL = {"Blog", "Linkedin", "X", "YT longform Video", "YT shorts", "Insta reel"}
+
+          def platform_valid(ctype, url):
+              url = (url or "").strip().lower()
+              if not url:
+                  return False
+              domains = PLATFORMS.get(ctype, [])
+              if not domains:
+                  return True
+              if not any(d in url for d in domains):
+                  return False
+              if ctype == "YT shorts" and "/shorts/" not in url:
+                  return False
+              return True
+
+          def title_sim(a, b):
+              return SequenceMatcher(None, (a or "").lower(), (b or "").lower()).ratio()
+
+          # Fetch PR files
+          r = gh([f"repos/{repo}/pulls/{pr}/files", "--paginate", "-q", ".[] | @json"])
+          if r.returncode != 0:
+              print(f"ERROR: could not fetch PR files: {r.stderr.strip()}")
+              sys.exit(1)
+          files = [json.loads(line) for line in r.stdout.splitlines() if line.strip()]
+          if not files:
+              print("No files changed. Skipping.")
+              sys.exit(0)
+          if len(files) != 1 or not all(
+              f.get("status") == "added" and f["filename"].startswith("submissions/") and f["filename"].endswith(".json")
+              for f in files
+          ):
+              print("PR does not add exactly one new submissions/*.json file. Leaving for admin review.")
+              sys.exit(0)
+
+          fname = files[0]["filename"]
+          # Fetch file content from PR head
+          cr = gh([f"repos/{repo}/contents/{fname}?ref={head_sha}", "--jq", ".content"])
+          if cr.returncode != 0:
+              print(f"ERROR: could not fetch file content: {cr.stderr.strip()}")
+              sys.exit(1)
+          try:
+              obj = json.loads(base64.b64decode(cr.stdout.strip()).decode("utf-8"))
+          except Exception as e:
+              print(f"ERROR: invalid JSON: {e}")
+              sys.exit(1)
+
+          # Only process PostedLink submissions
+          ctype = str(obj.get("type", "")).strip()
+          if ctype != "PostedLink":
+              print(f"Type is '{ctype}', not 'PostedLink'. Leaving for admin review.")
+              sys.exit(0)
+
+          fellow = str(obj.get("fellow", "")).strip()
+          for_type = str(obj.get("for_type", "")).strip()
+          title = str(obj.get("title", "")).strip()
+          link = str(obj.get("link", "")).strip()
+
+          # Check 1: for_type must be a valid social type
+          if for_type not in SOCIAL:
+              msg = f"Invalid for_type '{for_type}'. Must be one of: {', '.join(sorted(SOCIAL))}. Leaving for admin review."
+              subprocess.run(["gh", "pr", "comment", pr, "--body", msg], capture_output=True, text=True, env={**os.environ, "GH_TOKEN": token})
+              print(f"FAIL: {msg}")
+              sys.exit(1)
+
+          # Check 2: platform must match
+          if not platform_valid(for_type, link):
+              domains = PLATFORMS.get(for_type, [])
+              msg = f"Platform mismatch: expected one of {domains} for {for_type}, got {link}. Please fix the link and reopen."
+              subprocess.run(["gh", "pr", "comment", pr, "--body", msg], capture_output=True, text=True, env={**os.environ, "GH_TOKEN": token})
+              print(f"FAIL: {msg}")
+              sys.exit(1)
+
+          # Check 3: prior draft must exist (same fellow + for_type + title >= 75%)
+          dir_r = gh([f"repos/{repo}/contents/submissions?ref=main"])
+          if dir_r.returncode != 0:
+              print(f"ERROR: could not list submissions: {dir_r.stderr.strip()}")
+              sys.exit(1)
+          try:
+              dir_files = json.loads(dir_r.stdout)
+          except Exception as e:
+              print(f"ERROR: invalid directory listing: {e}")
+              sys.exit(1)
+          draft_found = False
+          draft_title = ""
+          for f in dir_files:
+              if not f["name"].endswith(".json") or f["name"] in ("INDEX.json", "TEMPLATE.json"):
+                  continue
+              cr = gh([f"repos/{repo}/contents/submissions/{f['name']}?ref=main", "--jq", ".content"])
+              if cr.returncode != 0:
+                  continue
+              try:
+                  o = json.loads(base64.b64decode(cr.stdout.strip()).decode("utf-8"))
+              except Exception:
+                  continue
+              if str(o.get("fellow", "")).strip() != fellow:
+                  continue
+              if str(o.get("type", "")).strip() != for_type:
+                  continue
+              sim = title_sim(title, str(o.get("title", "")).strip())
+              if sim >= 0.75:
+                  draft_found = True
+                  draft_title = str(o.get("title", "")).strip()
+                  break
+
+          if not draft_found:
+              msg = ("No prior draft found for this fellow + type with matching title (>=75% similarity). "
+                     "Please submit a draft first for admin content review, then resubmit the posted link. "
+                     "Leaving this PR open for admin review.")
+              subprocess.run(["gh", "pr", "comment", pr, "--body", msg], capture_output=True, text=True, env={**os.environ, "GH_TOKEN": token})
+              print(f"FAIL: {msg}")
+              sys.exit(1)
+
+          # All checks passed — auto-approve and auto-merge
+          print(f"PASS: platform valid ({link}), draft found (title similarity >= 75% with '{draft_title}').")
+          print("Auto-approving and merging...")
+          approve_r = subprocess.run(["gh", "pr", "review", pr, "--approve", "--body",
+              f"Auto-approved: PostedLink for {for_type}, platform verified ({link}), "
+              f"prior draft found (title similarity >= 75% with '{draft_title}')."],
+              capture_output=True, text=True, env={**os.environ, "GH_TOKEN": token})
+          if approve_r.returncode != 0:
+              print(f"WARNING: approve failed: {approve_r.stderr.strip()}")
+          merge_r = subprocess.run(["gh", "pr", "merge", pr, "--merge", "--admin"],
+              capture_output=True, text=True, env={**os.environ, "GH_TOKEN": token})
+          if merge_r.returncode != 0:
+              print(f"ERROR: merge failed: {merge_r.stderr.strip()}")
+              sys.exit(1)
+          print("Merged successfully.")
+          PY

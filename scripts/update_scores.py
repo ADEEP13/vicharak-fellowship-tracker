@@ -24,6 +24,39 @@ GITHUB_OVERRIDES_JSON = ROOT / "github_overrides.json"
 SCREENSHOT_ROWS = ["Github", "Linkedin", "Blog", "X", "Workshop"]
 CANONICAL_FOR_ROW = {"Github": "Project", "Linkedin": "Linkedin", "Blog": "Blog", "X": "X", "Workshop": "Workshop"}
 
+# Social-media types follow a two-stage flow: draft (0 pts) -> PostedLink (full pts, auto-approved)
+SOCIAL_TYPES = {"Blog", "Linkedin", "X", "YT longform Video", "YT shorts", "Insta reel"}
+
+# Platform detection: type -> list of accepted domains in the posted link
+PLATFORMS = {
+    "Blog": ["medium.com"],
+    "Linkedin": ["linkedin.com"],
+    "X": ["x.com", "twitter.com"],
+    "YT longform Video": ["youtube.com", "youtu.be"],
+    "YT shorts": ["youtube.com", "youtu.be"],
+    "Insta reel": ["instagram.com", "youtube.com", "youtu.be"],
+}
+
+def platform_valid(ctype, url):
+    """Check if url belongs to the correct platform for ctype."""
+    url = (url or "").strip().lower()
+    if not url:
+        return False
+    domains = PLATFORMS.get(ctype, [])
+    if not domains:
+        return True  # no platform requirement
+    if not any(d in url for d in domains):
+        return False
+    # YT shorts must contain /shorts/ path
+    if ctype == "YT shorts" and "/shorts/" not in url:
+        return False
+    return True
+
+def title_similarity(a, b):
+    """Fuzzy title match ratio (0.0-1.0) using SequenceMatcher."""
+    import difflib
+    return difflib.SequenceMatcher(None, (a or "").lower(), (b or "").lower()).ratio()
+
 def load_points():
     data = json.loads(POINTS_JSON.read_text(encoding="utf-8"))
     aliases = {k.lower(): v for k, v in data.get("_aliases", {}).items()}
@@ -52,6 +85,8 @@ def canon_type(raw, points, aliases):
         return "Workshop"
     if "purchase" in low or "kit" in low or low == "proof":
         return "PurchaseProof"
+    if "posted" in low or "final" in low or "publish" in low:
+        return "PostedLink"
     return None
 
 def safe_name(n):
@@ -199,6 +234,19 @@ def fetch_pr_counts(gmap, fellows):
     return rejected, pending
 
 
+def item_points(ctype, item, points):
+    """Points earned by a single submission item."""
+    gf = bool(item.get("grandfathered", False))
+    if ctype == "PostedLink":
+        ft = str(item.get("for_type", "")).strip()
+        if ft in SOCIAL_TYPES and platform_valid(ft, item.get("link", "")):
+            return points.get(ft, 0)
+        return 0
+    if ctype in SOCIAL_TYPES:
+        if gf:
+            return points.get(ctype, 0)
+        return 0
+    return points.get(ctype, 0)
 
 
 def write_fellow_detail(alloc_dir, safe, display, gh, d, points, total, threshold, approved_items, rejected_list, pending_list):
@@ -287,6 +335,9 @@ def main():
         link = str(obj.get("link", "")).strip()
         title = str(obj.get("title", "")).strip()
         date = str(obj.get("date", "")).strip()
+        posted_link = str(obj.get("posted_link", "")).strip()
+        for_type = str(obj.get("for_type", "")).strip()
+        grandfathered = bool(obj.get("grandfathered", False))
         if not fellow_raw:
             errors.append(f"{p.name}: missing fellow")
             continue
@@ -301,6 +352,15 @@ def main():
         if not (link.startswith("http://") or link.startswith("https://")):
             errors.append(f"{p.name}: link must start with http(s)://")
             continue
+        # PostedLink: validate for_type and platform
+        if ctype == "PostedLink":
+            if for_type not in SOCIAL_TYPES:
+                errors.append(f"{p.name}: PostedLink for_type '{for_type}' must be one of {sorted(SOCIAL_TYPES)}")
+                continue
+            if not platform_valid(for_type, link):
+                domains = PLATFORMS.get(for_type, [])
+                errors.append(f"{p.name}: platform mismatch — expected one of {domains} for {for_type}, got {link}")
+                continue
         # attribution: optional `github` field (username or URL) must belong to the same fellow;
         # points always go to `fellow` (the associated name), never to the raw GitHub account.
         gh_users = parse_github_usernames(str(obj.get("github", "") or ""))
@@ -313,7 +373,7 @@ def main():
                 observed[fkey].add(u)
             else:
                 unmapped.setdefault(u, set()).add(p.name)
-        store[fkey].setdefault(ctype, []).append({"link": link, "title": title, "date": date, "file": p.name})
+        store[fkey].setdefault(ctype, []).append({"link": link, "title": title, "date": date, "file": p.name, "posted_link": posted_link, "for_type": for_type, "grandfathered": grandfathered})
 
     # de-dupe links per fellow+type (keep first)
     for fkey, d in store.items():
@@ -364,7 +424,7 @@ def main():
         per_row_points = {}
         for row_label, ctype in CANONICAL_FOR_ROW.items():
             items = d.get(ctype, [])
-            pts = len(items) * points.get(ctype, 0)
+            pts = sum(item_points(ctype, it, points) for it in items)
             per_row_points[row_label] = (items, pts)
             total += pts
         # other types (outside screenshot rows) still count (PurchaseProof is a 0-pt gate, tracked separately)
@@ -373,7 +433,7 @@ def main():
         for ctype, items in d.items():
             if ctype not in CANONICAL_FOR_ROW.values() and ctype != "PurchaseProof":
                 other_count += len(items)
-                p = len(items) * points.get(ctype, 0)
+                p = sum(item_points(ctype, it, points) for it in items)
                 other_pts += p
                 total += p
         # write per-fellow csv (screenshot layout)
@@ -461,11 +521,13 @@ def main():
             for ctype in sorted(d):
                 for it in sorted(d[ctype], key=lambda x: (x["date"], x["file"])):
                     items.append({"type": ctype,
-                                  "points": points.get(ctype, 0),
+                                  "points": item_points(ctype, it, points),
                                   "title": it["title"],
                                   "link": it["link"],
                                   "date": it["date"],
-                                  "file": it["file"]})
+                                  "file": it["file"],
+                                  "for_type": it.get("for_type", ""),
+                                  "grandfathered": bool(it.get("grandfathered", False))})
             if items:
                 index[fellows[fkey]] = items
         (SUB_DIR / "INDEX.json").write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -513,7 +575,7 @@ def main():
             rows = [["Type", "Title", "Link", "Pts"]]
             for ctype in sorted(d):
                 for it in d[ctype]:
-                    rows.append([ctype, it["title"][:60], it["link"][:80], points.get(ctype, 0)])
+                    rows.append([ctype, it["title"][:60], it["link"][:80], item_points(ctype, it, points)])
             lt = Table(rows, repeatRows=1, colWidths=[60, 140, 220, 30])
             lt.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#eef2ff")),
                                     ("GRID", (0, 0), (-1, -1), 0.5, colors.grey),

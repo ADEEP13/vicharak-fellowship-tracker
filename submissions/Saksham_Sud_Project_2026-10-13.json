@@ -4,5 +4,6 @@
   "type": "Project",
   "title": "Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor)",
   "link": "https://github.com/Geneticscrol/perch",
-  "date": "2026-10-13"
+  "date": "2026-10-13",
+  "grandfathered": true
 }

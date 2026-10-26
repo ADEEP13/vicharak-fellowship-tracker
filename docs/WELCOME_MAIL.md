@@ -18,7 +18,14 @@ Nothing else counts until this is accepted. Steps (full guide: `docs/JOIN.md` in
 4. Once merged, your `Kit` flips to `YES` on the scoreboard — you're unlocked.
 
 **3. Then submit your work for points (need 250 to become ELIGIBLE)**
-Points: Blog 40, LinkedIn 40, X 40, Project 70, Workshop 100, Documentation contribution 30, YT longform Video 90, YT shorts 50, Insta reel 50, Fellowship Referral 20, Bug 25.
+Points: Blog 40, LinkedIn 40, X 40, Project 70, Workshop 100, Documentation contribution 30, YT longform Video 90, YT shorts 50, Insta reel 50, Fellowship Referral 20, Bug 25. PostedLink: 0 (auto-approved, awards points of the original type on platform verification). PurchaseProof = 0 points, but it unlocks you.
+
+**Two-stage flow for social media (Blog, LinkedIn, X, YT longform Video, YT shorts, Insta reel):**
+1. **Draft stage**: submit `type: "Blog"` (or other social type) with `link` = your Google Doc draft. I review content, merge → 0 points. Bot comments: "Content approved! Now post on the platform and submit the final link for your points."
+2. **Posted link stage**: after posting, open a new PR with `type: "PostedLink"`, `for_type: "Blog"` (or your type), and `link` = the published URL. The bot auto-verifies the platform and auto-merges → points given. No manual approval needed.
+
+**Other types (Project, Workshop, Documentation contribution, Bug, Fellowship Referral, PurchaseProof):** one PR, admin reviews and merges, points given. No posted link step.
+
 1. Prepare your work as a **draft first** (Google Doc, public link) — do NOT post publicly yet.
 2. One submission = one JSON file = one PR, titled `[Type] Your Name` (e.g. `[Blog] Arjun A`).
 3. After your PR is merged, post the final version on the actual platform (Medium / x.com / LinkedIn / GitHub / YouTube).
