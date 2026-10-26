@@ -42,17 +42,8 @@ build your own version instead.
 
 Browse them: https://github.com/vicharak-in/shrike/tree/main/examples
 
-## 3. Ideas that are still open
 
-- ShrikeFi **ESP32-S3** projects: WiFi/BLE bring-up, sensor dashboards, OTA on ESP32 side
-- **Vaaman / Axon** boards (not yet used by anyone)
-- Shrike Lite **battery / power profiling**, USB-C PD bring-up
-- **OpenFPGA / soft-core** builds beyond the upstream `shrike_picorv32`
-- **ShrikeFi OTA** (upstream board support exists — build an app/firmware on top)
-- Anything with **Pmod** peripherals, cameras, SDR, audio
-- A **Shrike-FI cluster** or multi-board project
-
-## 4. If your PR gets closed
+## 3. If your PR gets closed
 
 The admin closes a Project PR when:
 
