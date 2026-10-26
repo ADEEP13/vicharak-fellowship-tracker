@@ -1,4 +1,4 @@
-# Submissions by Fellow - 2026-10-26 06:42 UTC
+# Submissions by Fellow - 2026-10-26 07:02 UTC
 
 _Total: 44 accepted submissions across 22/69 fellows_
 
@@ -34,7 +34,7 @@ _Total: 44 accepted submissions across 22/69 fellows_
 - [PurchaseProof] ShrikeFi PurchaseProof, Order #6505 (2026-10-07) - https://drive.google.com/file/d/17PDVtNNHAzT4F4VuFTIq53OeErCilu2b/view?usp=sharing - 0 pts - `Hardik_Kumar_Sinha_PurchaseProof_2026-10-07.json`
 
 ## Harshit Kumar Sharma - 3 submission(s), 80 pts
-- [Blog] My Journey with Vicharak: Exploring Reconfigurable Computing (2026-10-15) - https://docs.google.com/document/d/1eVXTWC7kz1-T-7XDU8W0iMRcp34p7p_lXSpCNLVltkw/edit?usp=sharing - 40 pts - `Harshit Kumar Sharma_Blog_2026-10-15.json`
+- [Blog] My Journey with Vicharak: Exploring Reconfigurable Computing (2026-10-15) - https://docs.google.com/document/d/1eVXTWC7kz1-T-7XDU8W0iMRcp34p7p_lXSpCNLVltkw/edit?usp=sharing - 40 pts - `Harshit_Kumar_Sharma_Blog_2026-10-15.json`
 - [PurchaseProof] Purchase Proof Orders #4989 and #5785 (2026-10-04) - https://docs.google.com/document/d/1xIFamwjXaCcTN_OIHSBaBIrnRZicWH-KDGStICfz7Ws/edit?usp=sharing - 0 pts - `Harshit_Kumar_Sharma_PurchaseProof_2026-10-04.json`
 - [X] Vicharak Fellowship Kickoff Post (2026-10-08) - https://docs.google.com/document/d/1wtRL2N-kqDj2T9i16jaijWDE3giKfRZs6k4EvHBKFEA/edit?usp=sharing - 40 pts - `Harshit_Kumar_Sharma_X_2026-10-08.json`
 
@@ -85,7 +85,7 @@ _Total: 44 accepted submissions across 22/69 fellows_
 
 ## yatharth vishwa - 5 submission(s), 220 pts
 - [Linkedin] Joining Vicharak fellowship program (2026-10-08) - https://www.linkedin.com/feed/update/urn:li:activity:7513978284406337537/ - 40 pts - `yatharth_vishwa_Linkedin_2026-10-08.json`
-- [Linkedin] ShrikeFi FPGA OTA demo (2026-10-13) - https://www.linkedin.com/feed/update/urn:li:activity:7515066355432345600/ - 40 pts - `yatharth_vishwa_Linkedin_2026-10-08 copy.json`
+- [Linkedin] ShrikeFi FPGA OTA demo (2026-10-13) - https://www.linkedin.com/feed/update/urn:li:activity:7515066355432345600/ - 40 pts - `yatharth_vishwa_Linkedin_2026-10-13.json`
 - [Project] OTA support for ShrikeFi's FPGA (2026-10-13) - https://github.com/yatharthvishwa/ShrikeFi_FPGAOTA - 70 pts - `yatharth_vishwa_Project_2026-10-13.json`
 - [Project] ESP32-AndroidHID-Agent (2026-10-23) - https://github.com/yatharthvishwa/ESP32-AndroidHID-Agent - 70 pts - `yatharth_vishwa_Project_2026-10-23.json`
 - [PurchaseProof] PurchaseProof (2026-10-03) - https://drive.google.com/file/d/16SCtfxldNgffWbm9B9NtIkQyjrcxq1QA/view?usp=sharing - 0 pts - `yatharth_vishwa_PurchaseProof_2026-10-03.json`
