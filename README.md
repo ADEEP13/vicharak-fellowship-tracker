@@ -119,20 +119,20 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-26 07:02 UTC - Threshold 250 - 13/69 with points_
+_Updated 2026-10-26 07:19 UTC - Threshold 250 - 13/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
 | 1 | [yatharth vishwa](allocations/yatharth_vishwa.md) | @yatharthvishwa | YES | **220** | BELOW |
 | 2 | [Amaan Pathan](allocations/Amaan_Pathan.md) | @amaan9737 | YES | **150** | BELOW |
 | 3 | [Saksham Sud](allocations/Saksham_Sud.md) | @geneticscrol | YES | **140** | BELOW |
-| 4 | [Ankit raj](allocations/Ankit_raj.md) | @ankitra-j | YES | **80** | BELOW |
-| 5 | [Harshit Kumar Sharma](allocations/Harshit_Kumar_Sharma.md) | @harshit2387 | YES | **80** | BELOW |
-| 6 | [Rujul Rajeev Rumale](allocations/Rujul_Rajeev_Rumale.md) | @rujul-rumale | YES | **80** | BELOW |
-| 7 | [Adeep AG](allocations/Adeep_AG.md) | @adeep13 | YES | **70** | BELOW |
-| 8 | [ANNESTIO PIETY CASTANHA](allocations/ANNESTIO_PIETY_CASTANHA.md) | @apcetc | YES | **70** | BELOW |
-| 9 | [Revand Pradeep](allocations/Revand_Pradeep.md) | @revx5 | YES | **70** | BELOW |
-| 10 | [Nathan Mathews](allocations/Nathan_Mathews.md) | @deagle2 | YES | **40** | BELOW |
+| 4 | [Nathan Mathews](allocations/Nathan_Mathews.md) | @deagle2 | YES | **110** | BELOW |
+| 5 | [Ankit raj](allocations/Ankit_raj.md) | @ankitra-j | YES | **80** | BELOW |
+| 6 | [Harshit Kumar Sharma](allocations/Harshit_Kumar_Sharma.md) | @harshit2387 | YES | **80** | BELOW |
+| 7 | [Rujul Rajeev Rumale](allocations/Rujul_Rajeev_Rumale.md) | @rujul-rumale | YES | **80** | BELOW |
+| 8 | [Adeep AG](allocations/Adeep_AG.md) | @adeep13 | YES | **70** | BELOW |
+| 9 | [ANNESTIO PIETY CASTANHA](allocations/ANNESTIO_PIETY_CASTANHA.md) | @apcetc | YES | **70** | BELOW |
+| 10 | [Revand Pradeep](allocations/Revand_Pradeep.md) | @revx5 | YES | **70** | BELOW |
 | 11 | [Shreya Veni](allocations/Shreya_Veni.md) | @concatenate-this | YES | **40** | BELOW |
 | 12 | [Vaibhav Santosh Tiwari](allocations/Vaibhav_Santosh_Tiwari.md) | @orignalbox | YES | **40** | BELOW |
 | 13 | [Veer Kishan Whabi](allocations/Veer_Kishan_Whabi.md) | @veeru24ec006 | YES | **40** | BELOW |
@@ -151,7 +151,7 @@ Full table: [`SCORES.md`](SCORES.md) · Machine-readable: [`allocations/summary.
 
 ## Projects (auto-updated on every merge, do not edit below)
 <!-- PROJECTS_START -->
-_Updated 2026-10-26 07:02 UTC — 8 approved, 0 in review_
+_Updated 2026-10-26 07:19 UTC — 9 approved, 0 in review_
 
 ### Approved Projects
 | Fellow | Project | Link |
@@ -159,6 +159,7 @@ _Updated 2026-10-26 07:02 UTC — 8 approved, 0 in review_
 | Adeep AG | Geto Web IDE : For Shrike Series board(RP2040 & RP2350) | https://github.com/ADEEP13/IDE |
 | Amaan Pathan | Shrike-Fi Three-Phase SPWM Inverter | https://github.com/Amaan9737/shrike-fi-three-phase-spwm-inverter |
 | ANNESTIO PIETY CASTANHA | ShrikeFi 16-bit Multicycle CPU | https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1 |
+| Nathan Mathews | Tiny ILA for Shrike | https://github.com/Deagle2/shrike-traces |
 | Revand Pradeep | Shrike-Sentinel | https://docs.google.com/document/d/1DzsEX9RhsuA5Obxm0qkuIky-P2YCXNoWIiYl_c4sDtA/edit?usp=sharing |
 | Saksham Sud | ShrikeFi BLE find-my-board tag (iBeacon + Find Me + last-seen map) | https://github.com/Geneticscrol/shrikefi-ble-tag |
 | Saksham Sud | Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor) | https://github.com/Geneticscrol/perch |
