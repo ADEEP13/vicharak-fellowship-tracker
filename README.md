@@ -7,7 +7,7 @@ You do work outside (blog, video, LinkedIn post, project), you send us the link 
 You need 250 points to become ELIGIBLE.
 
 Points list (from `points.json`):
-Blog = 40, Linkedin = 40, X = 40, Project (GitHub) = 70, Workshop = 100, Documentation contribution = 30, YT longform Video = 90, YT shorts = 50, Insta reel = 50, Fellowship Referral = 20, Bug = 25. PurchaseProof = 0 points, but it unlocks you.
+Blog = 40, Linkedin = 40, X = 40, Project (GitHub) = 70, Workshop = 100, Documentation contribution = 30, YT longform Video = 90, YT shorts = 50, Insta reel = 50, Fellowship Referral = 20, Bug = 25, PostedLink = 0 (auto-approved, awards points[for_type] on platform verification). PurchaseProof = 0 points, but it unlocks you.
 
 Student list comes from `fellows.csv` (69 fellows).
 
@@ -37,6 +37,29 @@ Only after your PurchaseProof is accepted, do this for Blog, Linkedin, X, Projec
    - `date`: today in `YYYY-MM-DD`
 3. Send it: open a PR titled `[Type] Your Name`. Example: `[Blog] Arjun A`. Paste the same Google Doc link in the PR description so I can click fast.
 4. One file = one PR. Do not put 5 links in one file. Send 5 PRs.
+
+### Two-stage flow for social media submissions (Blog, Linkedin, X, YT longform Video, YT shorts, Insta reel)
+
+Social media types follow a two-stage process to ensure students actually post on the platform:
+
+**Stage 1 — Draft (admin reviews, 0 points):**
+1. Submit `type: "Blog"` (or other social type) with `link` = your Google Doc draft. Title it `[Blog] Your Name`.
+2. I review the content by eye. If good, I merge → "content approved" (0 points allocated).
+3. Bot posts an auto-comment: "Content approved! Now post on Medium and submit the final link for your points."
+
+**Stage 2 — Posted link (bot auto-approves, points given):**
+1. Post the final version on the platform (Medium, x.com, LinkedIn, YouTube, Instagram).
+2. Open a **new PR** with `type: "PostedLink"`, `for_type: "Blog"` (or your type), and `link` = the published URL. Title it `[PostedLink] Your Name`.
+3. Bot verifies: is the URL from the right platform? Was a draft already approved (title match ≥ 75%)?
+   - If yes → **bot auto-approves + auto-merges** → points allocated (Blog = 40, etc.).
+   - If no → bot comments the specific issue → PR stays open for me to review.
+4. No manual approval needed. Points appear automatically.
+
+**Note:** If you skip the draft stage and submit `PostedLink` directly, the bot will leave it for admin review (no auto-approval) since no prior draft was found.
+
+### Other submission types (Project, Workshop, Documentation contribution, Bug, Fellowship Referral, PurchaseProof)
+
+These work as before: one PR, admin reviews and merges, points given. No posted link step needed.
 
 ## Step 2 - How I check and give points
 
@@ -71,7 +94,7 @@ Workshop,...
 Total,,,,,,<total>
 ```
 
-Points = number of accepted links x points for that type. Total = sum of all. 250+ = ELIGIBLE, below = BELOW.
+Points = number of accepted links x points for that type. Total = sum of all. 250+ = ELIGIBLE, below = BELOW. Social media types (Blog, Linkedin, X, YT longform Video, YT shorts, Insta reel) follow a two-stage flow: draft (0 points) → PostedLink (full points, auto-approved). Other types are treated normally.
 
 ## What is inside this repo (simple map)
 
@@ -81,6 +104,8 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 - `allocations/` - auto-made marksheets. Do not edit, robot overwrites them.
 - `scripts/update_scores.py` - robot brain. Run `python scripts/update_scores.py` to test locally.
 - `fellowship_scores.pdf` - auto-made PDF of all scores.
+- `.github/workflows/score.yml` - scoring bot (runs on merge, regenerates allocations/scores).
+- `.github/workflows/auto-approve-posted-link.yml` - auto-verifies posted link PRs for social media types.
 - `docs/JOIN.md` - how to join (purchase proof = first PR).
 - `docs/FORKS.md` - why your PR may conflict, and how to fix it.
 - `docs/PROJECTS.md` - already-accepted projects + upstream examples. **Check this before submitting a Project.**
@@ -94,7 +119,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-26 04:54 UTC - Threshold 250 - 13/69 with points_
+_Updated 2026-10-26 11:51 UTC - Threshold 250 - 13/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|

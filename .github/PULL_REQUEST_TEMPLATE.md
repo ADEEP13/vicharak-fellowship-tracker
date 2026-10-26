@@ -1,8 +1,9 @@
 ## Submission PR — required format
 
-**Title must start with one of:** `[PurchaseProof]` `[Blog]` `[Linkedin]` `[X]` `[Project]` `[Workshop]` `[Documentation contribution]` `[YT longform Video]` `[YT shorts]` `[Insta reel]` `[Fellowship Referral]` `[Bug]`
+**Title must start with one of:** `[PurchaseProof]` `[Blog]` `[Linkedin]` `[X]` `[Project]` `[Workshop]` `[Documentation contribution]` `[YT longform Video]` `[YT shorts]` `[Insta reel]` `[Fellowship Referral]` `[Bug]` `[PostedLink]`
 Example: `[Blog] Arjun A — My Axon Lite build https://medium.com/...`
 First PR from any fellow must be `[PurchaseProof] Your Name — board/invoice image link` (0 pts, flips Kit to YES in the score block).
+PostedLink PRs are auto-approved by the bot if the platform matches and a prior draft exists.
 
 **Checklist (maintainer merges = accept = points):**
 - [ ] Added ONE file: `submissions/<Name>_<Type>_<YYYY-MM-DD>.json` (copied from TEMPLATE.json)
@@ -15,6 +16,7 @@ First PR from any fellow must be `[PurchaseProof] Your Name — board/invoice im
 - [ ] `type` matches PR prefix
 - [ ] `link` starts with http(s):// and is public/openable
 - [ ] `date` is YYYY-MM-DD
+- [ ] For `PostedLink` type: `for_type` is set to the original social type (Blog, Linkedin, X, YT longform Video, YT shorts, Insta reel)
 
 > Seeing a conflict or a red `file-guard` check? Read [`docs/FORKS.md`](../docs/FORKS.md).
 >

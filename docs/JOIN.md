@@ -9,8 +9,25 @@ Public to view. To submit, your **first PR must be your purchase proof**.
 
 ## After proof is accepted
 Only after your PurchaseProof PR is merged will regular submissions be accepted:
-- Blog / Linkedin / X / Project / Workshop / Documentation contribution / YT longform Video / YT shorts / Insta reel / Fellowship Referral / Bug
+- Blog / Linkedin / X / Project / Workshop / Documentation contribution / YT longform Video / YT shorts / Insta reel / Fellowship Referral / Bug / PostedLink
 - One submission = one JSON file = one PR, e.g. `submissions/Arjun_A_Blog_2026-09-28.json` with PR title `[Blog] Arjun A — https://...`
+
+### Two-stage flow for social media types (Blog, Linkedin, X, YT longform Video, YT shorts, Insta reel)
+
+Social media submissions follow a two-stage process to ensure students actually post on the platform:
+
+**Stage 1 — Draft (admin reviews, 0 points):**
+1. Submit `type: "Blog"` (or other social type) with `link` = your Google Doc draft.
+2. Admin reviews content, merges → 0 points (content approved, pending post).
+3. Bot comments: "Content approved! Now post on the platform, then submit the final link."
+
+**Stage 2 — Posted link (bot auto-approves, points given):**
+1. Post the final version on the platform.
+2. Open a new PR with `type: "PostedLink"`, `for_type: "Blog"` (or your type), and `link` = the published URL.
+3. Bot verifies: platform matches + prior draft approved (title similarity ≥ 75%) → auto-approves + auto-merges → points given.
+4. If verification fails → bot comments the issue → PR stays open for admin review.
+
+**Other types (Project, Workshop, Documentation contribution, Bug, Fellowship Referral, PurchaseProof):** one PR, admin reviews and merges, points given. No posted link step.
 
 > If your first PR is not the purchase proof, it will be closed / not accepted. Submit the PurchaseProof PR first, then resubmit the others.
 

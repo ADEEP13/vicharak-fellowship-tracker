@@ -4,5 +4,6 @@
   "type": "Linkdin",
   "title": "ShrikeFi FPGA OTA demo",
   "link": "https://www.linkedin.com/feed/update/urn:li:activity:7515066355432345600/",
-  "date": "2026-10-13"
+  "date": "2026-10-13",
+  "grandfathered": true
 }

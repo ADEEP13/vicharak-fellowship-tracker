@@ -216,13 +216,21 @@
         <tr><td>Project (GitHub)</td><td>70</td></tr>
         <tr><td>Workshop</td><td>100</td></tr>
         <tr><td>Documentation contribution</td><td>30</td></tr>
-        <tr><td>Video</td><td>90</td></tr>
         <tr><td>YT longform Video</td><td>90</td></tr>
         <tr><td>YT shorts</td><td>50</td></tr>
         <tr><td>Insta reel</td><td>50</td></tr>
         <tr><td>Fellowship Referral</td><td>20</td></tr>
         <tr><td>Bug</td><td>25</td></tr>
       </table>
+      <p style="margin-top: 12px; font-size: 13px; color: #666666;">PostedLink = 0 (auto-approved, awards the original type's points on platform verification). PurchaseProof = 0, but it unlocks you.</p>
+    </div>
+
+    <!-- Two-stage flow -->
+    <p style="margin-top: 22px; margin-bottom: 8px;"><strong>Two-stage flow for social media (Blog, LinkedIn, X, YT longform Video, YT shorts, Insta reel):</strong></p>
+    <div class="steps-card">
+      <p><strong>Stage 1 — Draft:</strong> Submit <code>type: "Blog"</code> with <code>link</code> = your Google Doc draft. Admin reviews content, merges → 0 points. Bot comments: "Content approved! Now post and submit the final link."</p>
+      <p><strong>Stage 2 — Posted link:</strong> After posting, open a new PR with <code>type: "PostedLink"</code>, <code>for_type: "Blog"</code>, <code>link</code> = published URL. Bot auto-verifies the platform and auto-merges → points given. No manual approval needed.</p>
+      <p><strong>Other types (Project, Workshop, Documentation contribution, Bug, Fellowship Referral, PurchaseProof):</strong> one PR, admin reviews and merges, points given. No posted link step.</p>
     </div>
 
     <!-- How to submit -->
