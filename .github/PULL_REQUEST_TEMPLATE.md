@@ -3,7 +3,7 @@
 **Title must start with one of:** `[PurchaseProof]` `[Blog]` `[Linkedin]` `[X]` `[Project]` `[Workshop]` `[Documentation contribution]` `[YT longform Video]` `[YT shorts]` `[Insta reel]` `[Fellowship Referral]` `[Bug]` `[PostedLink]`
 Example: `[Blog] Arjun A — My Axon Lite build https://medium.com/...`
 First PR from any fellow must be `[PurchaseProof] Your Name — board/invoice image link` (0 pts, flips Kit to YES in the score block).
-PostedLink PRs are auto-approved by the bot if the platform matches and a prior draft exists.
+PostedLink PRs are processed automatically if the platform matches and a prior draft exists.
 
 **Checklist (maintainer merges = accept = points):**
 - [ ] Added ONE file: `submissions/<Name>_<Type>_<YYYY-MM-DD>.json` (copied from TEMPLATE.json)
