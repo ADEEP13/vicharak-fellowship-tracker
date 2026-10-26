@@ -94,20 +94,20 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-26 04:32 UTC - Threshold 250 - 13/69 with points_
+_Updated 2026-10-26 04:34 UTC - Threshold 250 - 13/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
 | 1 | yatharth vishwa | @yatharthvishwa | YES | **220** | BELOW |
 | 2 | Saksham Sud | @geneticscrol | YES | **140** | BELOW |
-| 3 | Nathan Mathews | @deagle2 | YES | **110** | BELOW |
-| 4 | Amaan Pathan | @amaan9737 | YES | **80** | BELOW |
-| 5 | Ankit raj | @ankitra-j | YES | **80** | BELOW |
-| 6 | Harshit Kumar Sharma | @harshit2387 | YES | **80** | BELOW |
-| 7 | Rujul Rajeev Rumale | @rujul-rumale | YES | **80** | BELOW |
-| 8 | Adeep AG | @adeep13 | YES | **70** | BELOW |
-| 9 | ANNESTIO PIETY CASTANHA | @apcetc | YES | **70** | BELOW |
-| 10 | Revand Pradeep | @revx5 | YES | **70** | BELOW |
+| 3 | Amaan Pathan | @amaan9737 | YES | **80** | BELOW |
+| 4 | Ankit raj | @ankitra-j | YES | **80** | BELOW |
+| 5 | Harshit Kumar Sharma | @harshit2387 | YES | **80** | BELOW |
+| 6 | Rujul Rajeev Rumale | @rujul-rumale | YES | **80** | BELOW |
+| 7 | Adeep AG | @adeep13 | YES | **70** | BELOW |
+| 8 | ANNESTIO PIETY CASTANHA | @apcetc | YES | **70** | BELOW |
+| 9 | Revand Pradeep | @revx5 | YES | **70** | BELOW |
+| 10 | Nathan Mathews | @deagle2 | YES | **40** | BELOW |
 | 11 | Shreya Veni | @concatenate-this | YES | **40** | BELOW |
 | 12 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
 | 13 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |

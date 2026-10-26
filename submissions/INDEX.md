@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-26 04:32 UTC
+# Submissions by Fellow - 2026-10-26 04:34 UTC
 
-_Total: 44 accepted submissions across 22/69 fellows_
+_Total: 43 accepted submissions across 22/69 fellows_
 
 ## Adeep AG - 2 submission(s), 70 pts
 - [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
@@ -40,9 +40,8 @@ _Total: 44 accepted submissions across 22/69 fellows_
 ## MAJJI BHANU PRAKASH - 1 submission(s), 0 pts
 - [PurchaseProof] PurchaseProof (2026-10-07) - https://drive.google.com/file/d/1CDshSAe84N0fkmZvA8rQyvRSKdjuD4up/view?usp=drivesdk - 0 pts - `MAJJI_BHANU_PRAKASH_Purchaseproof_2026-10-09.json`
 
-## Nathan Mathews - 3 submission(s), 110 pts
+## Nathan Mathews - 2 submission(s), 40 pts
 - [Blog] PRNGs on a Shrike-Lite Devboard (2026-10-09) - https://docs.google.com/document/d/1MP8t0d4zSxcjxD-0ID6zmkhGox1zfDe8YlOHhGU3rw4/edit?usp=sharing - 40 pts - `Nathan_Mathews_Blog_2026-10-09.json`
-- [Project] Tiny ILA for Shrike (2026-10-21) - https://github.com/Deagle2/shrike-traces - 70 pts - `Nathan_Mathews_Project_2026-10-21.json`
 - [PurchaseProof] Purchase proof - Shrike Lite, Order #3967 (2026-10-03) - https://drive.google.com/file/d/146DsJhh7G3UF64aGUQF1zYtZObXwhnUl/view - 0 pts - `Nathan_Mathews_PurchaseProof_2026-10-03.json`
 
 ## Pradyumna Dalmia - 1 submission(s), 0 pts
