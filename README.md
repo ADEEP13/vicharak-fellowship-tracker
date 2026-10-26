@@ -119,7 +119,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-26 06:28 UTC - Threshold 250 - 13/69 with points_
+_Updated 2026-10-26 12:07 UTC - Threshold 250 - 13/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
@@ -148,3 +148,25 @@ _Showing top 20 of 69 - full list in [SCORES.md](SCORES.md)_
 <!-- SCORES_END -->
 
 Full table: [`SCORES.md`](SCORES.md) · Machine-readable: [`allocations/summary.csv`](allocations/summary.csv) · PDF: [`fellowship_scores.pdf`](fellowship_scores.pdf)
+
+## Projects (auto-updated on every merge, do not edit below)
+<!-- PROJECTS_START -->
+_Updated 2026-10-26 12:07 UTC — 8 approved, 0 in review_
+
+### Approved Projects
+| Fellow | Project | Link |
+|---|---|---|
+| Adeep AG | Geto Web IDE : For Shrike Series board(RP2040 & RP2350) | https://github.com/ADEEP13/IDE |
+| Amaan Pathan | Shrike-Fi Three-Phase SPWM Inverter | https://github.com/Amaan9737/shrike-fi-three-phase-spwm-inverter |
+| ANNESTIO PIETY CASTANHA | ShrikeFi 16-bit Multicycle CPU | https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1 |
+| Revand Pradeep | Shrike-Sentinel | https://docs.google.com/document/d/1DzsEX9RhsuA5Obxm0qkuIky-P2YCXNoWIiYl_c4sDtA/edit?usp=sharing |
+| Saksham Sud | ShrikeFi BLE find-my-board tag (iBeacon + Find Me + last-seen map) | https://github.com/Geneticscrol/shrikefi-ble-tag |
+| Saksham Sud | Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor) | https://github.com/Geneticscrol/perch |
+| yatharth vishwa | OTA support for ShrikeFi's FPGA | https://github.com/yatharthvishwa/ShrikeFi_FPGAOTA |
+| yatharth vishwa | ESP32-AndroidHID-Agent | https://github.com/yatharthvishwa/ESP32-AndroidHID-Agent |
+
+### In Review (open PRs)
+_None._
+
+Full list + upstream examples: [docs/PROJECTS.md](docs/PROJECTS.md)
+<!-- PROJECTS_END -->
