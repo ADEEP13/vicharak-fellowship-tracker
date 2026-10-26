@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-26 04:34 UTC
+# Submissions by Fellow - 2026-10-26 04:39 UTC
 
-_Total: 43 accepted submissions across 22/69 fellows_
+_Total: 44 accepted submissions across 22/69 fellows_
 
 ## Adeep AG - 2 submission(s), 70 pts
 - [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
@@ -9,8 +9,9 @@ _Total: 43 accepted submissions across 22/69 fellows_
 ## Aditya Nukala - 1 submission(s), 0 pts
 - [PurchaseProof] Vicharak Fellowship kit Purchase Proof (2026-10-14) - https://drive.google.com/drive/folders/1wtj7Pgt6J6he5JOblPkfnwpEVLV-jZXD?usp=sharing - 0 pts - `Aditya_Nukala_PurchaseProof_2026-10-14.json`
 
-## Amaan Pathan - 3 submission(s), 80 pts
+## Amaan Pathan - 4 submission(s), 150 pts
 - [Linkedin] Vicharak Campus Fellowship Kickoff (2026-10-10) - https://www.linkedin.com/posts/amaan-pathan-127bb0263_vicharak-embeddedsystems-fpga-share-7514711558405521408-DsDl/ - 40 pts - `Amaan_Pathan_Linkedin_2026-10-10.json`
+- [Project] Shrike-Fi Three-Phase SPWM Inverter (2026-10-20) - https://github.com/Amaan9737/shrike-fi-three-phase-spwm-inverter - 70 pts - `Amaan_Pathan_Project_2026-10-20.json`
 - [PurchaseProof] PurchaseProof_pack of 2 ShrikeFi_Amaan Pathan (2026-10-08) - https://drive.google.com/file/d/1UEn-QpIAYLxYL8V42cCf-1WJR7T8QCbP/view?usp=sharing - 0 pts - `Amaan_Pathan_PurchaseProof_2026-10-08.json`
 - [X] Vicharak Campus Fellowship Kickoff (2026-10-10) - https://x.com/AstroAmaan/status/2108955198274379963 - 40 pts - `Amaan_Pathan_X_2026-10-10.json`
 

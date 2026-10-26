@@ -1,12 +1,12 @@
-# Fellowship Scores - 2026-10-26 04:34 UTC
+# Fellowship Scores - 2026-10-26 04:39 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
 | Rank | Fellow | GitHub | Kit | Project | LinkedIn | Blog | X | Workshop | Other | Total | Status |
 |---:|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | yatharth vishwa | @yatharthvishwa | YES | 2 | 2 | 0 | 0 | 0 | 0 | **220** | BELOW |
-| 2 | Saksham Sud | @geneticscrol | YES | 2 | 0 | 0 | 0 | 0 | 0 | **140** | BELOW |
-| 3 | Amaan Pathan | @amaan9737 | YES | 0 | 1 | 0 | 1 | 0 | 0 | **80** | BELOW |
+| 2 | Amaan Pathan | @amaan9737 | YES | 1 | 1 | 0 | 1 | 0 | 0 | **150** | BELOW |
+| 3 | Saksham Sud | @geneticscrol | YES | 2 | 0 | 0 | 0 | 0 | 0 | **140** | BELOW |
 | 4 | Ankit raj | @ankitra-j | YES | 0 | 0 | 1 | 1 | 0 | 0 | **80** | BELOW |
 | 5 | Harshit Kumar Sharma | @harshit2387 | YES | 0 | 0 | 1 | 1 | 0 | 0 | **80** | BELOW |
 | 6 | Rujul Rajeev Rumale | @rujul-rumale | YES | 0 | 1 | 0 | 1 | 0 | 0 | **80** | BELOW |
