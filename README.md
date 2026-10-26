@@ -78,7 +78,7 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 - `fellows.csv` - class list. Do not edit by hand.
 - `points.json` - points rule book. If I change points here, robot follows it.
 - `submissions/` - your filled forms only (JSON files). This is the only folder you touch.
-- `allocations/` - auto-made marksheets. Do not edit, robot overwrites them.
+- `allocations/` - auto-made marksheets. Do not edit, robot overwrites them. Includes `<Name>.csv` (screenshot layout) and `<Name>.md` (per-fellow detail page: submissions, points attribution, rejected/pending PRs).
 - `scripts/update_scores.py` - robot brain. Run `python scripts/update_scores.py` to test locally.
 - `fellowship_scores.pdf` - auto-made PDF of all scores.
 - `docs/JOIN.md` - how to join (purchase proof = first PR).
@@ -94,30 +94,30 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-26 04:34 UTC - Threshold 250 - 13/69 with points_
+_Updated 2026-10-26 10:22 UTC - Threshold 250 - 13/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
-| 1 | yatharth vishwa | @yatharthvishwa | YES | **220** | BELOW |
-| 2 | Saksham Sud | @geneticscrol | YES | **140** | BELOW |
-| 3 | Amaan Pathan | @amaan9737 | YES | **80** | BELOW |
-| 4 | Ankit raj | @ankitra-j | YES | **80** | BELOW |
-| 5 | Harshit Kumar Sharma | @harshit2387 | YES | **80** | BELOW |
-| 6 | Rujul Rajeev Rumale | @rujul-rumale | YES | **80** | BELOW |
-| 7 | Adeep AG | @adeep13 | YES | **70** | BELOW |
-| 8 | ANNESTIO PIETY CASTANHA | @apcetc | YES | **70** | BELOW |
-| 9 | Revand Pradeep | @revx5 | YES | **70** | BELOW |
-| 10 | Nathan Mathews | @deagle2 | YES | **40** | BELOW |
-| 11 | Shreya Veni | @concatenate-this | YES | **40** | BELOW |
-| 12 | Vaibhav Santosh Tiwari | @orignalbox | YES | **40** | BELOW |
-| 13 | Veer Kishan Whabi | @veeru24ec006 | YES | **40** | BELOW |
-| 14 | Aaditya Goswami | @aadii02 | NO | **0** | BELOW |
-| 15 | Abhishek Jain | @abhishek261007 | NO | **0** | BELOW |
-| 16 | Aditya Nukala | @adikp98 | YES | **0** | BELOW |
-| 17 | Aditya Reddy | @aditya-1020 | NO | **0** | BELOW |
-| 18 | Aman Sharma | @captain1508 | NO | **0** | BELOW |
-| 19 | Amrutha M | @amrutham-24 | NO | **0** | BELOW |
-| 20 | Anandu Rajan | @anandurajan1209 | NO | **0** | BELOW |
+| 1 | [yatharth vishwa](allocations/yatharth_vishwa.md) | @yatharthvishwa | YES | **220** | BELOW |
+| 2 | [Saksham Sud](allocations/Saksham_Sud.md) | @geneticscrol | YES | **140** | BELOW |
+| 3 | [Amaan Pathan](allocations/Amaan_Pathan.md) | @amaan9737 | YES | **80** | BELOW |
+| 4 | [Ankit raj](allocations/Ankit_raj.md) | @ankitra-j | YES | **80** | BELOW |
+| 5 | [Harshit Kumar Sharma](allocations/Harshit_Kumar_Sharma.md) | @harshit2387 | YES | **80** | BELOW |
+| 6 | [Rujul Rajeev Rumale](allocations/Rujul_Rajeev_Rumale.md) | @rujul-rumale | YES | **80** | BELOW |
+| 7 | [Adeep AG](allocations/Adeep_AG.md) | @adeep13 | YES | **70** | BELOW |
+| 8 | [ANNESTIO PIETY CASTANHA](allocations/ANNESTIO_PIETY_CASTANHA.md) | @apcetc | YES | **70** | BELOW |
+| 9 | [Revand Pradeep](allocations/Revand_Pradeep.md) | @revx5 | YES | **70** | BELOW |
+| 10 | [Nathan Mathews](allocations/Nathan_Mathews.md) | @deagle2 | YES | **40** | BELOW |
+| 11 | [Shreya Veni](allocations/Shreya_Veni.md) | @concatenate-this | YES | **40** | BELOW |
+| 12 | [Vaibhav Santosh Tiwari](allocations/Vaibhav_Santosh_Tiwari.md) | @orignalbox | YES | **40** | BELOW |
+| 13 | [Veer Kishan Whabi](allocations/Veer_Kishan_Whabi.md) | @veeru24ec006 | YES | **40** | BELOW |
+| 14 | [Aaditya Goswami](allocations/Aaditya_Goswami.md) | @aadii02 | NO | **0** | BELOW |
+| 15 | [Abhishek Jain](allocations/Abhishek_Jain.md) | @abhishek261007 | NO | **0** | BELOW |
+| 16 | [Aditya Nukala](allocations/Aditya_Nukala.md) | @adikp98 | YES | **0** | BELOW |
+| 17 | [Aditya Reddy](allocations/Aditya_Reddy.md) | @aditya-1020 | NO | **0** | BELOW |
+| 18 | [Aman Sharma](allocations/Aman_Sharma.md) | @captain1508 | NO | **0** | BELOW |
+| 19 | [Amrutha M](allocations/Amrutha_M.md) | @amrutham-24 | NO | **0** | BELOW |
+| 20 | [Anandu Rajan](allocations/Anandu_Rajan.md) | @anandurajan1209 | NO | **0** | BELOW |
 
 _Showing top 20 of 69 - full list in [SCORES.md](SCORES.md)_
 <!-- SCORES_END -->

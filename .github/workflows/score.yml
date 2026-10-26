@@ -31,6 +31,9 @@ jobs:
       - name: Install PDF lib
         run: pip install reportlab
       - name: Update allocations
+        env:
+          GITHUB_TOKEN: ${{ secrets.SCORE_PAT || github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: python scripts/update_scores.py
         continue-on-error: true
       - name: Commit allocations back
