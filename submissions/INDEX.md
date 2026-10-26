@@ -1,6 +1,6 @@
-# Submissions by Fellow - 2026-10-23 09:38 UTC
+# Submissions by Fellow - 2026-10-26 04:25 UTC
 
-_Total: 41 accepted submissions across 21/69 fellows_
+_Total: 42 accepted submissions across 22/69 fellows_
 
 ## Adeep AG - 2 submission(s), 70 pts
 - [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
@@ -22,6 +22,9 @@ _Total: 41 accepted submissions across 21/69 fellows_
 ## ANNESTIO PIETY CASTANHA - 2 submission(s), 70 pts
 - [Project] ShrikeFi 16-bit Multicycle CPU (2026-10-12) - https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1 - 70 pts - `ANNESTIO_PIETY_CASTANHA_Project_2026-10-12.json`
 - [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-03) - https://raw.githubusercontent.com/apcetc/Vicharak_Campus_Fellowship_APC-/main/submissions/purchase_proof/INVOICE_APC.png - 0 pts - `ANNESTIO_PIETY_CASTANHA_PurchaseProof_2026-10-03.json`
+
+## Dev Kumar Singh - 1 submission(s), 0 pts
+- [PurchaseProof] Vicharak Kit Purchase Proof (2026-10-23) - https://drive.google.com/drive/folders/1_kEV9b1up5vsGaKk3_d6CEBD9v6QvkF5?usp=sharing - 0 pts - `Dev_Kumar_Singh_PurchaseProof_2026-10-23.json`
 
 ## Gantla Venkata Sravan - 1 submission(s), 0 pts
 - [PurchaseProof] Purchase Proof (2026-10-03) - https://x.com/Sravan271828/status/2103878332039549257/photo/4 - 0 pts - `Gantla_Venkata_Sravan_PurchaseProof_2026-10-03.json`

@@ -1,4 +1,4 @@
-# Fellowship Scores - 2026-10-23 09:38 UTC
+# Fellowship Scores - 2026-10-26 04:25 UTC
 
 Threshold: 250 (ELIGIBLE >= 250)
 
@@ -32,7 +32,7 @@ Threshold: 250 (ELIGIBLE >= 250)
 | 26 | Aryan Malhotra | @aryan514 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 27 | Ashish Kumar Pal | @jipal5212-wq | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 28 | CHERALA ROHAN | @therohancherala | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
-| 29 | Dev Kumar Singh | @2232def | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
+| 29 | Dev Kumar Singh | @2232def | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 30 | Drik Paul | @drik245 | NO | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 31 | Gantla Venkata Sravan | @sravangantla007 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
 | 32 | Hardik Kumar Sinha | @hksinha510 | YES | 0 | 0 | 0 | 0 | 0 | 0 | **0** | BELOW |
