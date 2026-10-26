@@ -21,11 +21,11 @@ Social media submissions follow a two-stage process to ensure students actually 
 2. Admin reviews content, merges → 0 points (content approved, pending post).
 3. Bot comments: "Content approved! Now post on the platform, then submit the final link."
 
-**Stage 2 — Posted link (bot auto-approves, points given):**
+**Stage 2 — Posted link (system verifies, points given):**
 1. Post the final version on the platform.
 2. Open a new PR with `type: "PostedLink"`, `for_type: "Blog"` (or your type), and `link` = the published URL.
-3. Bot verifies: platform matches + prior draft approved (title similarity ≥ 75%) → auto-approves + auto-merges → points given.
-4. If verification fails → bot comments the issue → PR stays open for admin review.
+3. System verifies: platform matches + prior draft approved (title similarity ≥ 75%) → points given.
+4. If verification fails → PR stays open for admin review.
 
 **Other types (Project, Workshop, Documentation contribution, Bug, Fellowship Referral, PurchaseProof):** one PR, admin reviews and merges, points given. No posted link step.
 
