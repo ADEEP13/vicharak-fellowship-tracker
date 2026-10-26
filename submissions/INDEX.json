@@ -371,6 +371,14 @@
       "file": "yatharth_vishwa_Project_2026-10-13.json"
     },
     {
+      "type": "Project",
+      "points": 70,
+      "title": "ESP32-AndroidHID-Agent",
+      "link": "https://github.com/yatharthvishwa/ESP32-AndroidHID-Agent",
+      "date": "2026-10-23",
+      "file": "yatharth_vishwa_Project_2026-10-23.json"
+    },
+    {
       "type": "PurchaseProof",
       "points": 0,
       "title": "PurchaseProof",

@@ -94,11 +94,11 @@ Points = number of accepted links x points for that type. Total = sum of all. 25
 
 ## Live Score List (auto-updated on every merge, do not edit below)
 <!-- SCORES_START -->
-_Updated 2026-10-26 04:25 UTC - Threshold 250 - 13/69 with points_
+_Updated 2026-10-26 04:26 UTC - Threshold 250 - 13/69 with points_
 
 | Rank | Fellow | GitHub | Kit | Total | Status |
 |---:|---|---|---|---:|---|
-| 1 | yatharth vishwa | @yatharthvishwa | YES | **150** | BELOW |
+| 1 | yatharth vishwa | @yatharthvishwa | YES | **220** | BELOW |
 | 2 | Saksham Sud | @geneticscrol | YES | **140** | BELOW |
 | 3 | Amaan Pathan | @amaan9737 | YES | **80** | BELOW |
 | 4 | Ankit raj | @ankitra-j | YES | **80** | BELOW |
