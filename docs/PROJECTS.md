@@ -11,11 +11,12 @@ gets closed and you score 0 for it.
 > (new peripherals, real-world use, custom toolchain, your own docs) and say so
 > in the PR description.
 
-## 1. Projects already accepted in this program (7)
+## 1. Projects already accepted in this program (8)
 
 | Fellow | Project | Link |
 |---|---|---|
 | Adeep AG | Geto Web IDE : For Shrike Series board(RP2040 & RP2350) | https://github.com/ADEEP13/IDE |
+| Amaan Pathan | Shrike-Fi Three-Phase SPWM Inverter | https://github.com/Amaan9737/shrike-fi-three-phase-spwm-inverter |
 | ANNESTIO PIETY CASTANHA | ShrikeFi 16-bit Multicycle CPU | https://github.com/apcetc/Vicharak_Campus_Fellowship_APC-/tree/main/PROJECT_1 |
 | Revand Pradeep | Shrike-Sentinel | https://docs.google.com/document/d/1DzsEX9RhsuA5Obxm0qkuIky-P2YCXNoWIiYl_c4sDtA/edit?usp=sharing |
 | Saksham Sud | Perch — Passive Environmental Radio Census for ShrikeFi (receive-only 802.11 management-frame auditor) | https://github.com/Geneticscrol/perch |
