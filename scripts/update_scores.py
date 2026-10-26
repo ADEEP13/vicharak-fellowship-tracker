@@ -512,6 +512,56 @@ def main():
     except Exception as e:
         print(f"Leaderboard update failed: {e}", file=sys.stderr)
 
+    # Projects block in README (below scorecard) — approved + in-review projects
+    try:
+        approved_projects = []
+        for fkey in sorted(store, key=lambda k: fellows[k].lower()):
+            display = fellows[fkey]
+            for it in store[fkey].get("Project", []):
+                approved_projects.append((display, it["title"], it["link"], it["date"]))
+        approved_projects.sort(key=lambda x: x[0].lower())
+        inreview_projects = []
+        for fkey in fellows:
+            for pr in pending_prs.get(fkey, []):
+                title = pr.get("title", "")
+                m = re.match(r"^\[Project\]\s*(.+?)(?:\s*[—\-]\s*(.*))?$", title, re.IGNORECASE)
+                if m:
+                    proj_title = m.group(2).strip() if m.group(2) else title
+                    inreview_projects.append((fellows[fkey], proj_title, f"PR #{pr['number']}", pr.get("date", "")))
+        inreview_projects.sort(key=lambda x: x[0].lower())
+        proj_lines = []
+        proj_lines.append(f"_Updated {datetime.now().strftime('%Y-%m-%d %H:%M')} UTC — {len(approved_projects)} approved, {len(inreview_projects)} in review_")
+        proj_lines.append("")
+        proj_lines.append("### Approved Projects")
+        if approved_projects:
+            proj_lines.append("| Fellow | Project | Link |")
+            proj_lines.append("|---|---|---|")
+            for name, title, link, date in approved_projects:
+                proj_lines.append(f"| {name} | {title} | {link} |")
+        else:
+            proj_lines.append("_None yet._")
+        proj_lines.append("")
+        proj_lines.append("### In Review (open PRs)")
+        if inreview_projects:
+            proj_lines.append("| Fellow | Project | PR | Opened |")
+            proj_lines.append("|---|---|---|---|")
+            for name, title, prref, date in inreview_projects:
+                proj_lines.append(f"| {name} | {title} | {prref} | {date} |")
+        else:
+            proj_lines.append("_None._")
+        proj_lines.append("")
+        proj_lines.append("Full list + upstream examples: [docs/PROJECTS.md](docs/PROJECTS.md)")
+        proj_block = "\n".join(proj_lines)
+        txt = README_MD.read_text(encoding="utf-8")
+        pat = re.compile(r"<!-- PROJECTS_START -->.*?<!-- PROJECTS_END -->", re.DOTALL)
+        repl = f"<!-- PROJECTS_START -->\n{proj_block}\n<!-- PROJECTS_END -->"
+        if "<!-- PROJECTS_START -->" in txt:
+            txt = pat.sub(repl, txt)
+            README_MD.write_text(txt, encoding="utf-8")
+            print(f"README projects block updated: {len(approved_projects)} approved, {len(inreview_projects)} in review")
+    except Exception as e:
+        print(f"Projects block update failed: {e}", file=sys.stderr)
+
     # submissions/INDEX.json + INDEX.md — all submissions grouped under a single fellow name
     try:
         index = {}
