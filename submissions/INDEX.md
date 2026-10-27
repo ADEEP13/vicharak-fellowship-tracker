@@ -1,9 +1,8 @@
-# Submissions by Fellow - 2026-10-27 06:57 UTC
+# Submissions by Fellow - 2026-10-27 07:19 UTC
 
-_Total: 46 accepted submissions across 22/69 fellows_
+_Total: 45 accepted submissions across 22/69 fellows_
 
-## Adeep AG - 3 submission(s), 70 pts
-- [Linkedin] Geto Web IDE — Browser-Based IDE for Shrike-Lite (2026-10-26) - https://docs.google.com/document/d/1UjJFKH8rXNogBAFW0R0fR0udFXIPqLZ6nezVO4h4ctw/edit?usp=sharing - 0 pts - `Adeep_AG_Linkedin_2026-10-26.json`
+## Adeep AG - 2 submission(s), 70 pts
 - [Project] Geto Web IDE : For Shrike Series board(RP2040 & RP2350) (2026-10-17) - https://github.com/ADEEP13/IDE - 70 pts - `Adeep_AG_Project_2026-10-17.json`
 - [PurchaseProof] Shrike Lite Order #4726 (2026-10-09) - https://drive.google.com/drive/u/0/folders/1h7LZbNftaQJHPZZ7_Fp8lw2rfFcRpzPM - 0 pts - `Adeep_AG_PurchaseProof_2026-10-09.json`
 
