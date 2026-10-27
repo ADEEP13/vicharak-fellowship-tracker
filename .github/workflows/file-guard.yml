@@ -108,6 +108,20 @@ jobs:
                           low = type_raw.lower()
                           if low in aliases:
                               ctype = aliases[low]
+                          elif "github" in low or "project" in low:
+                              ctype = "Project"
+                          elif "linked" in low:
+                              ctype = "Linkedin"
+                          elif low in ("x", "twitter"):
+                              ctype = "X"
+                          elif "blog" in low:
+                              ctype = "Blog"
+                          elif "workshop" in low:
+                              ctype = "Workshop"
+                          elif "purchase" in low or "kit" in low or low == "proof":
+                              ctype = "PurchaseProof"
+                          elif "posted" in low or "final" in low or "publish" in low:
+                              ctype = "PostedLink"
                       if ctype is None:
                           print(f"FAIL: {f['filename']} - unknown type '{type_raw}'.")
                           print(f"  Valid types: {', '.join(sorted(points))}")
