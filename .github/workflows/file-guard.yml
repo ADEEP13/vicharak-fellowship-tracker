@@ -28,15 +28,17 @@ jobs:
           ADMIN = "nilangwork17"
 
           def gh(args):
-              p = subprocess.run(["gh", "api"] + args, capture_output=True, text=True, env={**os.environ, "GH_TOKEN": os.environ["GH_TOKEN"]})
-              if p.returncode != 0:
-                  print(f"ERROR: gh api failed: {p.stderr.strip()}")
-                  sys.exit(1)
-              return p.stdout
+              p = subprocess.run(["gh", "api"] + args, capture_output=True, text=True,
+                                 env={**os.environ, "GH_TOKEN": os.environ["GH_TOKEN"]})
+              return p
 
           # Admin exemption: if the newest commit on the PR branch was authored by an admin,
           # the admin has curated it - skip the strict single-file rule.
-          commits = json.loads(gh([f"repos/{repo}/pulls/{pr}/commits"]) or "[]")
+          commits_raw = gh([f"repos/{repo}/pulls/{pr}/commits"])
+          if commits_raw.returncode != 0:
+              print(f"ERROR: gh api failed: {commits_raw.stderr.strip()}")
+              sys.exit(1)
+          commits = json.loads(commits_raw.stdout or "[]")
           last_author = ""
           if commits:
               last_author = ((commits[-1].get("author") or {}).get("login") or "").lower()
@@ -44,8 +46,11 @@ jobs:
               print(f"PASS: admin-curated branch (PR author @{pr_author}, last commit by @{last_author or 'unknown'}).")
               sys.exit(0)
 
-          files = [json.loads(line) for line in gh(
-              [f"repos/{repo}/pulls/{pr}/files", "--paginate", "-q", ".[] | @json"]).splitlines() if line.strip()]
+          files_raw = gh([f"repos/{repo}/pulls/{pr}/files", "--paginate", "-q", ".[] | @json"])
+          if files_raw.returncode != 0:
+              print(f"ERROR: gh api failed: {files_raw.stderr.strip()}")
+              sys.exit(1)
+          files = [json.loads(line) for line in files_raw.stdout.splitlines() if line.strip()]
           print("Changed files:")
           for f in files:
               print(f"  {f.get('status')}: {f.get('filename')}")
@@ -64,7 +69,8 @@ jobs:
 
           # 2. Students cannot grandfather their own work (admin-only flag)
           for f in files:
-              if f.get("status") == "added" and f["filename"].endswith(".json") and f["filename"].startswith("submissions/"):
+              if (f.get("status") == "added" and f["filename"].endswith(".json")
+                      and f["filename"].startswith("submissions/")):
                   cr = gh([f"repos/{repo}/contents/{f['filename']}?ref={head_sha}", "--jq", ".content"])
                   if cr.returncode == 0:
                       try:
